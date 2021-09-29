@@ -1,0 +1,316 @@
+backend:
+  name: git-gateway
+  branch: master
+
+local_backend: true
+
+media_folder: "/images/uploads"
+public_folder: "/images/uploads"
+
+show_preview_links: false
+search: false
+
+collections:
+  - name: "index"
+    label: "Index"
+    create: false
+    delete: false
+    editor:
+      preview: true
+    files:
+      - name: "about"
+        label: "About"
+        file: "sections/1_about.md"
+        fields:
+          - name: "title"
+            label: "Title"
+            widget: "string"
+          - name: "content"
+            label: "Content"
+            widget: "markdown"
+            buttons: [italic, link]
+            editor_components: []
+            modes: [rich_text]
+            required: false
+
+      - name: "authors"
+        label: "About the authors"
+        file: "sections/2_authors.md"
+        fields:
+          - name: "title"
+            label: "Title"
+            widget: "string"
+          - name: "authors"
+            label: "Authors"
+            widget: "list"
+            collapsed: false
+            required: false
+            fields:
+              - name: "content"
+                label: "Content"
+                widget: "markdown"
+                buttons: [italic, link]
+                editor_components: []
+                modes: [rich_text]
+              - name: "contentMore"
+                label: "Content (more)"
+                widget: "markdown"
+                buttons: [italic, link]
+                editor_components: []
+                modes: [rich_text]
+                required: false
+
+      - name: "references"
+        label: "Reading list"
+        file: "sections/3_references.md"
+        fields:
+          - name: "title"
+            label: "Title"
+            widget: "string"
+          - name: "content"
+            label: "Content"
+            widget: "markdown"
+            buttons: [italic, link]
+            editor_components: []
+            modes: [rich_text]
+            required: false
+
+      - name: "contact"
+        label: "Contact"
+        file: "sections/4_contact.md"
+        fields:
+          - name: "title"
+            label: "Title"
+            widget: "string"
+          - name: "label"
+            label: "Comments section text"
+            widget: "string"
+          - name: "placeholder"
+            label: "Comment box placeholder"
+            widget: "string"
+          - name: "submitButton"
+            label: "Comment box submit button label"
+            widget: "string"
+          - name: "submitSuccess"
+            label: "Comment box success message"
+            widget: "string"
+          - name: "submitError"
+            label: "Comment box error message"
+            widget: "string"
+          - name: "enabled"
+            label: "Show comments box"
+            widget: "boolean"
+          - name: "emailButton"
+            label: "Email button label"
+            widget: "string"
+          - name: "emailAddress"
+            label: "Email address"
+            widget: "string"
+          - name: "newsletterLabel"
+            label: "Newsletter section text"
+            widget: "string"
+          - name: "newsletterPlaceholder"
+            label: "Newsletter placeholder"
+            widget: "string"
+          - name: "newsletterButton"
+            label: "Newsletter button label"
+            widget: "string"
+          - name: "newsletterAction"
+            label: "Mailchimp submit action url"
+            widget: "string"
+
+      - name: "colophon"
+        label: "Colophon"
+        file: "sections/5_colophon.md"
+        fields:
+          - name: "title"
+            label: "Title"
+            widget: "string"
+          - name: "content"
+            label: "Content"
+            widget: "markdown"
+            buttons: [italic, link]
+            editor_components: []
+            modes: [rich_text]
+            required: false
+          - name: "images"
+            label: "Images (.PNG, .JPEG, max 5MB)"
+            label_singular: "Image"
+            widget: "list"
+            allow_add: true
+            collapsed: false
+            required: false
+            fields:
+              - name: "src"
+                label: "Upload"
+                widget: "image"
+                media_library:
+                  allow_multiple: false
+                  config:
+                    max_file_size: 5000000
+              - name: "alt"
+                label: "Alt text"
+                widget: "string"
+                required: false
+              - name: "href"
+                label: "Link"
+                widget: "string"
+                required: false
+
+      - name: "bar"
+        label: "Bar"
+        file: "sections/0_bar.md"
+        fields:
+          - name: "title"
+            label: "Title"
+            widget: "hidden"
+          - name: "content"
+            label: "Bar text"
+            widget: "string"
+
+  - name: "issues"
+    label: "Issues"
+    label_singular: "Issue"
+    folder: "issues"
+    create: true
+    editor:
+      preview: false
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Show issue on index (public/draft)"
+        name: "visible"
+        widget: "boolean"
+        default: true
+      - label: "Meta 1"
+        name: "meta1"
+        widget: "string"
+        default: "Released Month Year"
+        required: false
+      - label: "Meta 2"
+        name: "meta2"
+        widget: "string"
+        default: "1/1 –– Introduction"
+        required: false
+      - label: "Contributors"
+        label_singular: "Contributor"
+        name: "contributors"
+        widget: "list"
+        allow_add: true
+        collapsed: false
+        required: false
+        fields:
+          - label: "Name"
+            name: "name"
+            widget: "string"
+          - label: "Link"
+            name: "href"
+            widget: "string"
+            required: false
+      - label: "Issue Introduction Summary"
+        name: "content"
+        widget: "markdown"
+        buttons: [italic, link]
+        editor_components: [image]
+        modes: [rich_text]
+        required: false
+      - label: "PDF Upload (max 8 MB)"
+        name: "pdfUpload"
+        widget: "file"
+        required: false
+        media_library:
+          allow_multiple: false
+          config:
+            max_file_size: 8000000
+      - label: "Images (.PNG, .JPEG, max 5MB)"
+        label_singular: "Image"
+        name: "images"
+        widget: "list"
+        allow_add: true
+        collapsed: false
+        required: false
+        fields:
+          - label: "Upload"
+            name: "src"
+            widget: "image"
+            media_library:
+              allow_multiple: false
+              config:
+                max_file_size: 5000000
+          - label: "Alt text"
+            name: "alt"
+            widget: "string"
+            required: false
+      - label: "Reading list"
+        label_singular: "Reading list item"
+        name: "references"
+        widget: "list"
+        allow_add: true
+        collapsed: false
+        required: false
+        fields:
+          - name: "content"
+            label: "Content"
+            widget: "markdown"
+            buttons: [italic, link]
+            editor_components: []
+            modes: [rich_text]
+            required: false
+
+  - name: "settings"
+    label: "Settings"
+    create: false
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "meta"
+        label: "Site settings"
+        file: "_data/settings/metadata.json"
+        fields:
+          - name: "title"
+            label: "Site title"
+            widget: "string"
+          - name: "tagline"
+            label: "Tag line"
+            widget: "string"
+            required: false
+          - name: "description"
+            label: "Site description"
+            widget: "text"
+            required: false
+
+      - name: "analytics"
+        label: "Analytics"
+        file: "_data/settings/analytics.json"
+        fields:
+          - name: "google"
+            label: "Google analytics ID (excluding initial UA-)"
+            widget: "string"
+            required: false
+          - name: "cloudflare"
+            label: "Cloudflare analytics beacon token"
+            widget: "string"
+            required: false
+
+      - name: "styles"
+        label: "Style settings"
+        file: "_data/settings/styles.json"
+        fields:
+          - name: "color"
+            label: "Colour"
+            widget: "color"
+            allowInput: true
+            required: false
+          - name: "colorDark"
+            label: "Colour dark"
+            widget: "color"
+            allowInput: true
+            required: false
+          - name: "colorIcon"
+            label: "Favicon colour"
+            widget: "color"
+            allowInput: true
+            required: false

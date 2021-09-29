@@ -1,0 +1,9 @@
+<div id="bar" class="bar">
+  <span>
+    {% for item in collections.index %}
+    {% if item.data.type === 'bar' %}
+    {{ item.data.content }}
+    {% endif %}
+    {% endfor %}
+  </span>
+</div>

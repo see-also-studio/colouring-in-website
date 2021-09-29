@@ -1,0 +1,48 @@
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  text-align: inherit;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+
+  line-height: normal;
+
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  -webkit-appearance: none;
+
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+  :focus:not(:-moz-focusring) {
+    outline: none;
+  }
+}
+
+input {
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+  :focus:not(:-moz-focusring) {
+    outline: none;
+  }
+}
+
+label {
+  cursor: inherit;
+}
+
+*:not(h2) + form {
+  margin-top: 2em;
+}

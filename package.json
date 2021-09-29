@@ -1,0 +1,21 @@
+{
+  "name": "colouring-in-website",
+  "version": "1.0.0",
+  "description": "Website for Colouring In",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "See Also",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "eleventy-plugin-sass": "^1.2.0",
+    "markdown-it": "^12.2.0",
+    "markdown-it-for-inline": "^0.1.1",
+    "netlify-cli": "^6.9.26",
+    "prettier": "^2.4.1"
+  }
+}

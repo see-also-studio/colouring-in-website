@@ -1,0 +1,33 @@
+@import "admin/breakpoints";
+
+@import "common/reset";
+@import "common/form-reset";
+@import "common/variables";
+@import "common/fonts";
+@import "common/global";
+@import "common/accessibility";
+
+@import "layouts/index";
+@import "layouts/bar";
+
+@import "components/more-less";
+@import "components/image-grid";
+@import "components/forms";
+@import "components/buttons";
+
+
+:root {
+  --col-right: 50%;
+  --col-left: 100%;
+}
+
+html {
+  @include breakpoint(medium) {
+    font-size: 3.4vw;
+  }
+}
+
+a,
+input {
+  pointer-events: none;
+}

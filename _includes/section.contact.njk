@@ -1,0 +1,35 @@
+{% for item in collections.index %}
+{% if item.data.type === 'contact' %}
+<section id="contact" class="section">
+  <h2 class="section__heading">{{ item.data.title }}</h2>
+  {% if item.data.enabled %}
+  <form id="contact-form" class="submit-form" name="contact" method="POST" netlify-honeypot="bot-field" netlify>
+    <label class="hidden">Don’t fill this out if you’re human: <input name="bot-field" /></label>
+    <label for="input-comment">{{ item.data.label }}</label>
+    <input id="input-comment" type="text" name="comment" placeholder="{{ item.data.placeholder }}">
+    <div class="status size-modify">
+      <span class="success">{{ item.data.submitSuccess }}</span>
+      <span class="error">{{ item.data.submitError }}</span>
+    </div>
+    <button class="button--round" type="submit">{{ item.data.submitButton }}</button>
+  </form>
+  {% else %}
+  <p>{{ item.data.label }}</p>
+  {% endif %}
+  {% if item.data.emailAddress %}
+  <a class="button--round" href="mailto:{{ item.data.emailAddress }}">{{ item.data.emailButton }}</a>
+  {% endif %}
+  {% if item.data.newsletterAction %}
+  <form id="form-newsletter" class="submit-form" name="newsletter" method="POST" target="_blank" novalidate action="https://see-also.us8.list-manage.com/subscribe/post?u=0e40e9d22fb05ee350952c3d0&amp;id=36a09221c8">
+    <label for="input-newsletter">{{ item.data.newsletterLabel }}</label>
+    <input id="input-newsletter" type="email" value="" name="EMAIL" placeholder="{{ item.data.newsletterPlaceholder }}">
+    <div class="status size-modify">
+      <span class="success">Success</span>
+      <span class="error">Error</span>
+    </div>
+    <button class="button--round" type="submit" name="subscribe">{{ item.data.newsletterButton }}</button>
+  </form>
+  {% endif %}
+</section>
+{% endif %}
+{% endfor %}

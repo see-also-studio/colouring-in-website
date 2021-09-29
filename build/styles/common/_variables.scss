@@ -1,0 +1,15 @@
+:root {
+  --color-foreground: #242323;
+  --color-background: #efefe9;
+  --color-accent: #dae4ea;
+  --color-accent--dark: #7abae0;
+
+  --outline--dotted: dotted 1px var(--color-foreground);
+  --outline--text: 0.75px var(--color-foreground);
+
+  --font-size--secondary: 0.72rem;
+
+  --col-right: 26%;
+  --col-left: calc(100% - var(--col-right));
+  --bar-height: 1.42rem;
+}

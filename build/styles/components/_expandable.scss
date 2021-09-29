@@ -1,0 +1,60 @@
+details {
+  display: block;
+  position: relative;
+  outline: 0;
+  padding-left: 1.4em;
+
+  &::-webkit-details-marker,
+  &::marker {
+    display: none;
+  }
+
+  summary {
+    list-style: none;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+
+    > .issues__title {
+      display: block;
+      padding-bottom: 0.08em;
+    }
+
+    &::before {
+      display: block;
+      content: "";
+      position: absolute;
+      border: 1px solid var(--color-foreground);
+      border-radius: 50%;
+      width: 0.86em;
+      height: 0.57em;
+      left: 0;
+      top: 0.28rem;
+    }
+  }
+
+  > ul > li > details {
+    > summary {
+      &::before {
+        font-size: 80%;
+      }
+    }
+  }
+
+  .content {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    transform-origin: top;
+
+    li + li {
+      margin-top: 1rem;
+    }
+  }
+
+  &[open] > summary::before,
+  summary:hover::before {
+    background: var(--color-accent);
+    filter: brightness(1.05);
+  }
+}

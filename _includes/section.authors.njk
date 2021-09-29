@@ -1,0 +1,16 @@
+{% for item in collections.index %}
+{% if item.data.type === 'authors' and item.data.authors | length %}
+<section id="authors" class="section">
+  <h2 class="section__heading">{{ item.data.title }}</h2>
+    {% for author in item.data.authors %}
+    <div class="author more-less para-spacing">
+      <div class="more-less__less preview">{{ author.content | markdown | safe }}</div>
+      {% if author.contentMore %}
+      <div class="more-less__more more"><div class="more__inner">{{ author.contentMore | markdown | safe }}</div></div>
+      <button class="more-less__button">(<span>more</span>)</button>
+      {% endif %}
+    </div>
+    {% endfor %}
+</section>
+{% endif %}
+{% endfor %}

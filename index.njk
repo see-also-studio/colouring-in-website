@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+permalink: /
+---
+
+<header>
+  <h1 class="logo text-outline"><a href="/">{{ title or settings.metadata.title }}</a></h1>
+</header>
+<main id="main">
+  {% include "section.about.njk" %}
+  {% include "section.issues.njk" %}
+  {% include "section.authors.njk" %}
+  {% include "section.references.njk" %}
+  {% include "section.contact.njk" %}
+  {% include "section.colophon.njk" %}
+  {% include "partials/painting-palette.njk" %}
+  {% include "partials/painting-canvas.njk" %}
+</main>
+{% include "bar.njk" %}

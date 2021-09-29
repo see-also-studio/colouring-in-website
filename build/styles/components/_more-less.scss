@@ -1,0 +1,19 @@
+.more-less {
+  &:not(.more-less--active) {
+    .more-less__more {
+      display: none;
+    }
+  }
+
+  .more__inner {
+    padding-top: 1em;
+  }
+
+  .more-less__button {
+    span {
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-decoration-thickness: 1px;
+    }
+  }
+}

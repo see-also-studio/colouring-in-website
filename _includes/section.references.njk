@@ -1,0 +1,31 @@
+{% set showReferences = false %}
+{% for item in collections.issue %}
+{% if item.data.references | length %}
+{% set showReferences = true %}
+{% endif %}
+{% endfor %}
+
+{% for item in collections.index %}
+{% if item.data.type === 'references' and showReferences %}
+<section id="references" class="section">
+  <h2 class="section__heading">{{ item.data.title }}</h2>
+  {{ item.data.content | markdown | safe }}
+  <ul>
+    {% for issue in collections.issue %}
+    {% if issue.data.references | length %}
+    <li id="{{ loop.index }}-{{ issue.data.title | slug }}-references">
+      <details{{ " open" if (loop.index == 1) and (issue.data.references | length) }} >
+        <summary><span class="issues__title">{{ issue.data.title }}</span></summary>
+        <ul class="content">
+          {% for reference in issue.data.references %}
+          <li>{{ reference.content | markdown | safe }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endfor %}

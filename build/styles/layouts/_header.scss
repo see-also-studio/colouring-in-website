@@ -1,0 +1,23 @@
+header {
+  position: fixed;
+  top: 0.2em;
+  right: 0.65em;
+  z-index: 100;
+
+  h1 {
+    font-size: 250%;
+    line-height: 1.1;
+
+    @include breakpoint(medium) {
+      font-size: 314%;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        opacity: inherit;
+      }
+    }
+  }
+}

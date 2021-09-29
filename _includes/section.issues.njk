@@ -1,0 +1,77 @@
+{% set contributorsTitle = "Contributors" %}
+{% set referencesTitle = "Reading List" %}
+{% for item in collections.index %}
+  {% if item.data.type === 'contributors' %}
+    {% set contributorsTitle %}{{ item.data.title }}{% endset %}
+  {% elif item.data.type === 'references' %}
+    {% set referencesTitle %}{{ item.data.title }}{% endset %}
+  {% endif %}
+{% endfor %}
+<section id="issues" class="issues col-left scroll">
+  {# <h2 class="content-mobile section__heading">Issues</h2> #}
+  {% for issue in collections.issue %}
+  {% if issue.data.visible %}
+  {% if not (loop.index == 1) %}<div class="spacer"></div>{% endif %}
+  <article id="{{ loop.index }}-{{ issue.data.title | slug }}" class="issues__item">
+    <div class="issues__wrapper">
+      <div class="issues__meta size-modify">
+        <span class="issues__meta1">{{ issue.data.meta1 }}</span>
+        <span class="issues__meta2">{{ issue.data.meta2 }}</span>
+      </div>
+      <h3 class="issues__title"><a href="#{{ loop.index }}-{{ issue.data.title | slug }}">{{ issue.data.title }}</a></h3>
+      <div class="issues__content size-modify">
+        {{ issue.data.content | markdown | safe }}
+      </div>
+      {% if issue.data.contributors | length %}
+      <div class="issues__contributors ">
+        <h4 class="section__heading">{{ contributorsTitle }}</h4>
+        <ul class="size-modify">
+        {% for contributor in issue.data.contributors %}
+          <li>
+            {% if contributor.href %}
+              <a href="{{ contributor.href }}" target="_blank">{{ contributor.name }}</a>
+            {% else %}
+              {{ contributor.name }}
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      <div class="issues__buttons">
+        {% if issue.data.images | length %}
+        <div class="images-scatter">
+          <button class="button--round image-button">View Images</button>
+          <ul class="issues__images">
+            {% for image in issue.data.images %}
+            <li>
+              <img alt="{{ image.alt }}"
+                sizes="(max-width: 679px) 240px, 17vw"
+                srcset="{{ image.src }}?nf_resize=fit&w=240&h=240 240w,
+                {{ image.src }}?nf_resize=fit&w=480&h=480 480w,
+                {{ image.src }}?nf_resize=fit&w=720&h=720 720w"
+                src="{{ image.src }}"
+                loading="lazy">
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% else %}
+          <span class="button--round image-button disabled">View Images</span>
+        {% endif %}
+        {% if issue.data.pdfUpload %}
+        <a class="button--round pdf-button" target="_blank" href="{{ issue.data.pdfUpload }}">Read PDF</a>
+        {% else %}
+        <span class="button--round pdf-button disabled">Read PDF</span>
+        {% endif %}
+        {% if issue.data.references | length %}
+          <a class="button--round references-button" href="#{{ loop.index }}-{{ issue.data.title | slug }}-references">{{ referencesTitle }}</a>
+        {% else %}
+        {% endif %}
+      </div>
+      {% include "partials/painting-canvas.njk" %}
+    </div>
+  </article>
+  {% endif %}
+  {% endfor %}
+</section>

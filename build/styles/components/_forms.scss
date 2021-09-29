@@ -1,0 +1,43 @@
+input {
+  --margin: 0.7rem;
+
+  display: block;
+  color: var(--color-accent--dark);
+  font-size: 1em;
+  font-family: inherit;
+  width: calc(100% - var(--margin) * 2);
+  margin: 1.2rem var(--margin);
+  padding: 0.15em;
+  background: transparent;
+  border: none;
+  border-bottom: var(--outline--dotted);
+  border-radius: 0;
+
+  &::placeholder,
+  &::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.5;
+  }
+}
+
+#contact {
+  .status {
+    text-align: center;
+
+    > * {
+      display: none;
+    }
+
+    &.success {
+      > .success {
+        display: block;
+      }
+    }
+
+    &.error {
+      > .error {
+        display: block;
+      }
+    }
+  }
+}

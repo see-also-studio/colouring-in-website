@@ -1,0 +1,25 @@
+{% for item in collections.index %}
+{% if item.data.type === 'colophon' %}
+<section id="colophon" class="section">
+  <h2 class="section__heading">{{ item.data.title }}</h2>
+  {{ item.data.content | markdown | safe }}
+  {% if item.data.images | length %}
+      <ul class="image-grid">
+        {% for image in item.data.images %}
+        <li class="image-grid__item">
+          {% if image.href %}<a href="{{ image.href }}" target="_blank">{% endif %}
+          <img alt="{{ image.alt }}"
+            sizes="(max-width: 679px) 144px, 10vw"
+            srcset="{{ image.src }}?nf_resize=fit&w=144&h=96 144w,
+            {{ image.src }}?nf_resize=fit&w=228&h=192 228w,
+            {{ image.src }}?nf_resize=fit&w=500&h=422 500w"
+            src="{{ image.src }}"
+            loading="lazy">
+            {% if image.href %}</a>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+</section>
+{% endif %}
+{% endfor %}

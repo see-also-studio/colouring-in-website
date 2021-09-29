@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or settings.metadata.title }}{% if settings.metadata.tagline %} — {{ settings.metadata.tagline }}{% endif %}</title>
+  <script type="module">
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+  <link rel="stylesheet" href="/assets/styles/main.css">
+  <meta name="description" content="{{ description or settings.metadata.description }}">
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="{{ settings.styles.color or '#dae4ea' }}">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {% if settings.analytics.googletag %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-{{ settings.analytics.googletag }}"></script>
+  <script src="assets/gtag.js"></script>
+  {% endif %}
+</head>
+<body style="--color-accent:{{ settings.styles.color or '#dae4ea' }};--color-accent--dark:{{ settings.styles.colorDark or '#7abae0' }};">
+  {{ content | safe }}
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+  <script src="/assets/scripts/main.js"></script>
+  {% if settings.analytics.cloudflaretag %}
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "{{ settings.analytics.cloudflaretag }}"}'></script>
+  {% endif %}
+</body>
+</html>

@@ -1,0 +1,60 @@
+@function css-function( $function, $values... ) {
+	@return
+		$function
+		+ unquote( '(' )
+		+ $values
+		+ unquote( ')' )
+	;
+}
+
+@function css-max( $values... ) {
+	@return css-function( max, $values );
+}
+
+.issues__images {
+  --size: 10em;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+
+  li {
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    top: css-max(calc(0 * var(--size)), calc(((100% - var(--size)) / 100) * var(--random-top)));
+    left: css-max(calc(0 * var(--size)), calc(((100% - var(--size)) / 100) * var(--random-left)));
+    pointer-events: none;
+    transition-duration: 300ms;
+    transition-delay: calc(var(--delay) * 0.7ms);
+    transition-property: opacity, transform;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  &.issues__images--active {
+    img {
+      pointer-events: auto;
+    }
+  }
+
+  &:not(.issues__images--active) {
+    pointer-events: none;
+
+    li {
+      opacity: 0;
+      transform: scale(0.9, 0.9);
+    }
+  }
+}

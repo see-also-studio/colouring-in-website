@@ -1,0 +1,74 @@
+html {
+  font-size: 150%;
+  scroll-behavior: smooth;
+
+  @include breakpoint(medium) {
+    font-size: 1.7vw;
+  }
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.2;
+  color: var(--color-foreground);
+  background: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #faf6ca;
+}
+
+.section__heading {
+  font-size: var(--font-size--secondary);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+p + p,
+.para-spacing + .para-spacing,
+p + * {
+  margin-top: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  position: relative;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+em {
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.text-outline {
+  -webkit-text-stroke: var(--outline--text);
+  color: transparent;
+}
+
+.issues__title {
+  -webkit-text-stroke: var(--outline--text);
+  color: transparent;
+}
+
+*:not(.issues__item):target {
+  margin-top: calc((4rem + 20vh) * -1);
+  padding-top: calc(4rem + 20vh);
+}
+
+.size-modify {
+  font-size: 85%;
+}

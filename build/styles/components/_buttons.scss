@@ -1,0 +1,24 @@
+.button--round {
+  font-size: 85%;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: min-content;
+  height: min-content;
+  padding: 0.62em 0.9em;
+  border: var(--outline--dotted);
+  border-radius: 5em;
+  text-decoration: none;
+
+  &:hover {
+    opacity: unset;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+  }
+
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+}

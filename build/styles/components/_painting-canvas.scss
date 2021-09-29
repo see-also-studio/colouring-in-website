@@ -1,0 +1,61 @@
+main,
+.issues__wrapper {
+  cursor: url('/assets/images/brush.svg') 16 16, auto;
+}
+
+.painting-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  filter: blur(1px);
+  cursor: url('/assets/images/brush.svg') 16 16, auto;
+  touch-action: none;
+  user-select: none;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.painting-palette {
+  position: fixed;
+  bottom: 0.75em;
+  right: 0.55em;
+  z-index: 100;
+
+  .painting-palette__button {
+    position: relative;
+    overflow: hidden;
+    background: var(--color-background);
+    width: 2em;
+    height: 0;
+    padding-bottom: 78%;
+    border: var(--outline--dotted);
+    border-radius: 50%;
+    transition-duration: 400ms;
+    transition-property: background-color;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 50%;
+      border-top: 1px dashed black;
+      transform: skewY(-20deg);
+      z-index: 10;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      top: 0;
+      height: 100%;
+      border-radius: 50%;
+      background-color: var(--color-accent--dark);
+      filter: blur(0.5em);
+    }
+  }
+}
