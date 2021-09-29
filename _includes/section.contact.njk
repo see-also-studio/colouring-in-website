@@ -11,7 +11,7 @@
       <span class="success">{{ item.data.submitSuccess }}</span>
       <span class="error">{{ item.data.submitError }}</span>
     </div>
-    <button class="button--round" type="submit">{{ item.data.submitButton }}</button>
+    <button class="button--round" title="Submit comment" type="submit">{{ item.data.submitButton }}</button>
   </form>
   {% else %}
   <p>{{ item.data.label }}</p>
@@ -27,7 +27,7 @@
       <span class="success">Success</span>
       <span class="error">Error</span>
     </div>
-    <button class="button--round" type="submit" name="subscribe">{{ item.data.newsletterButton }}</button>
+    <button class="button--round" title="Subscribe to newsletter" type="submit" name="subscribe">{{ item.data.newsletterButton }}</button>
   </form>
   {% endif %}
 </section>

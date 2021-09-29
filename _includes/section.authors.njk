@@ -7,7 +7,7 @@
       <div class="more-less__less preview">{{ author.content | markdown | safe }}</div>
       {% if author.contentMore %}
       <div class="more-less__more more"><div class="more__inner">{{ author.contentMore | markdown | safe }}</div></div>
-      <button class="more-less__button">(<span>more</span>)</button>
+      <button class="more-less__button" title="More/less text">(<span>more</span>)</button>
       {% endif %}
     </div>
     {% endfor %}
