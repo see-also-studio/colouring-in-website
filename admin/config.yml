@@ -278,7 +278,7 @@ collections:
         default: "layouts/page.njk"
       - name: "permalink"
         widget: "hidden"
-        default: "{{ title | slug }}"
+        default: "{{ title | slug }}/"
       - name: "description"
         label: "Meta description"
         widget: "text"
