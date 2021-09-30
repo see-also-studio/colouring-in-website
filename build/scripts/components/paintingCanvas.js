@@ -5,6 +5,7 @@
 
 class PaintingCanvas {
   constructor(el) {
+    this.enabled = true;
     this.canvas = el;
     this.mouseListener = el.parentNode;
     this.ctx = this.canvas.getContext('2d');
@@ -19,6 +20,13 @@ class PaintingCanvas {
     this.height = this.canvas.height = this.memCanvas.height = this.canvas.offsetHeight;
     this.memCtx = this.memCanvas.getContext('2d');
     this.points = [];
+    this.addListeners();
+    window.addEventListener('resize', () => this.resize());
+    this.canvas.addEventListener('resizeel', () => this.resize());
+    this.canvas.addEventListener('clearcanvas', (e) => this.toggle());
+  }
+
+  addListeners() {
     this.mouseListener.addEventListener('mouseenter', (e) => this.move(e));
     this.mouseListener.addEventListener('touchstart', (e) => this.move(e), { passive: true });
     this.mouseListener.addEventListener('mousemove', (e) => this.move(e));
@@ -26,9 +34,14 @@ class PaintingCanvas {
     this.mouseListener.addEventListener('wheel', (e) => this.move(e), { passive: true });
     this.mouseListener.addEventListener('mouseleave', (e) => this.end(e));
     this.mouseListener.addEventListener('touchend', (e) => this.end(e), { passive: true });
-    window.addEventListener('resize', () => this.resize());
-    this.canvas.addEventListener('resizeel', () => this.resize());
-    this.canvas.addEventListener('clearcanvas', (e) => this.clear());
+  }
+
+  toggle() {
+    if(this.enabled) {
+      this.enabled = false;
+    } else {
+      this.enabled = true;
+    }
   }
 
   resize() {
@@ -56,6 +69,10 @@ class PaintingCanvas {
   }
 
   move(e) {
+    if (!this.enabled) {
+      this.started = false;
+      return;
+    }
     const pos = 'touches' in e ? e.touches[0] : e;
     const rect = e.currentTarget.getBoundingClientRect();
     const posPoints = {
@@ -136,4 +153,5 @@ document.querySelector('.painting-palette__button').addEventListener('click', fu
   canvasAll.forEach(function(item) {
     item.dispatchEvent(clearEvent);
   });
+  this.classList.toggle('disabled');
 });
