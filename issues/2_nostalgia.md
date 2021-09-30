@@ -1,8 +1,8 @@
 ---
-title: Nostalgia
+title: The City
 visible: true
-meta1: To be released November 2022
-meta2: ""
+meta1: Issue 2
+meta2: To be released February 2022
 contributors: []
 content: Coming soon.
 images: []
