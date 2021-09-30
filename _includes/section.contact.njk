@@ -20,7 +20,7 @@
   <a class="button--round" href="mailto:{{ item.data.emailAddress }}">{{ item.data.emailButton }}</a>
   {% endif %}
   {% if item.data.newsletterAction %}
-  <form id="form-newsletter" class="submit-form" name="newsletter" method="POST" target="_blank" novalidate action="https://see-also.us8.list-manage.com/subscribe/post?u=0e40e9d22fb05ee350952c3d0&amp;id=36a09221c8">
+  <form id="form-newsletter" class="submit-form" name="newsletter" method="POST" target="_blank" novalidate action="{{ item.data.newsletterAction }}">
     <label for="input-newsletter">{{ item.data.newsletterLabel }}</label>
     <input id="input-newsletter" type="email" value="" name="EMAIL" placeholder="{{ item.data.newsletterPlaceholder }}">
     <div class="status size-modify">
