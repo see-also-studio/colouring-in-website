@@ -313,6 +313,14 @@ collections:
             label: "Site description"
             widget: "text"
             required: false
+          - name: "ogimage"
+            label: "Open Graph image"
+            widget: "image"
+            media_library:
+              allow_multiple: false
+              config:
+                max_file_size: 5000000
+            hint: "1200 x 630 JPEG"
 
       - name: "analytics"
         label: "Analytics"
