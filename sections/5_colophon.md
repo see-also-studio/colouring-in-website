@@ -19,6 +19,9 @@ content: >-
 
 
   View our [Accessibility Statement](/accessibility-statement/)
+
+
+  View our [Privacy Policy](/privacy-policy/)
 images:
   - src: /images/uploads/ual.svg
     href: https://www.arts.ac.uk/colleges/camberwell-college-of-arts
