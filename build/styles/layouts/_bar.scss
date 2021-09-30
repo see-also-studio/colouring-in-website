@@ -5,7 +5,8 @@
   bottom: 0;
   width: 100%;
   height: var(--bar-height);
-  background-color: var(--color-accent);
+  color: inherit;
+  background: var(--color-accent);
   overflow: hidden;
   white-space: nowrap;
   display: flex;

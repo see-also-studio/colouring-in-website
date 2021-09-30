@@ -36,6 +36,7 @@ p + * {
 
 a {
   color: inherit;
+  background: inherit;
   text-decoration-style: dotted;
   text-decoration-thickness: 1px;
   position: relative;
@@ -57,11 +58,13 @@ img {
 .text-outline {
   -webkit-text-stroke: var(--outline--text);
   color: transparent;
+  background: transparent;
 }
 
 .issues__title {
   -webkit-text-stroke: var(--outline--text);
   color: transparent;
+  background: transparent;
 }
 
 *:not(.issues__item):target {
