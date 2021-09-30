@@ -15,7 +15,7 @@ content: >-
 
   Colouring In\
 
-  ISSN 0000-0000
+  ISSN pending
 
 
   View our [Accessibility Statement](/accessibility-statement/)
