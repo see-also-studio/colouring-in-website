@@ -63,10 +63,10 @@ class PaintingCanvas {
       y: Math.round(pos.clientY - rect.top),
     };
 
-    if (posPoints.x < 0 || posPoints.y < 0) {
-      return;
-    }
     if (!this.started) {
+      if (posPoints.x < 0 || posPoints.y < 0) {
+        return;
+      }
       this.started = true;
       this.points.push(posPoints);
     } else {
