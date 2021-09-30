@@ -286,7 +286,7 @@ collections:
       - name: "body"
         label: "Content"
         widget: "markdown"
-        buttons: [heading-two, heading-three, bold, italic, link, bulleted-list]
+        buttons: [heading-three, bold, italic, link, bulleted-list]
         editor_components: []
         modes: [rich_text]
         required: false

@@ -4,11 +4,9 @@ permalink: /
 ---
 
 <header>
-  <h1 class="text-outline"><a href="/">{{ title or settings.metadata.title }}</a></h1>
+  <h1 class="text-outline"><a href="/">{{ settings.metadata.title }}</a></h1>
 </header>
-<main id="main" class="page">
-  <section id="about" class="section">
-    {{ content | markdown | safe }}
-  </section>
-</main>
-{% include "bar.njk" %}
+<section id="about" class="section page">
+  <h2>{{ title }}</h2>
+  {{ content | markdown | safe }}
+</section>
