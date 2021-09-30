@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+permalink: /
+---
+
+<header>
+  <h1 class="text-outline"><a href="/">{{ title or settings.metadata.title }}</a></h1>
+</header>
+<main id="main" class="page">
+  <section id="about" class="section">
+    {{ content | markdown | safe }}
+  </section>
+</main>
+{% include "bar.njk" %}

@@ -22,7 +22,8 @@ body {
   background: #faf6ca;
 }
 
-.section__heading {
+.section__heading,
+.page h2 {
   font-size: var(--font-size--secondary);
   margin-bottom: 1rem;
   text-transform: uppercase;
@@ -74,4 +75,18 @@ img {
 
 .size-modify {
   font-size: 85%;
+}
+
+ul:not([class]):not([id]) {
+  & > li:not([class]):not([id]) {
+    list-style-type: circle;
+    margin-left: 1em;
+
+    & + li:not([class]):not([id]) {
+    }
+
+    &:last-child {
+      margin-bottom: 1em;
+    }
+  }
 }

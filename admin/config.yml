@@ -259,6 +259,38 @@ collections:
             modes: [rich_text]
             required: false
 
+  - name: "pages"
+    label: "Extra pages"
+    label_singular: "Page"
+    folder: "pages"
+    create: true
+    delete: true
+    editor:
+      preview: false
+    fields:
+      - name: "title"
+        label: "Title"
+        widget: "string"
+        required: true
+      - name: "layout"
+        widget: "hidden"
+        default: "layouts/page.njk"
+      - name: "permalink"
+        widget: "hidden"
+        default: "{{ title | slug }}"
+      - name: "description"
+        label: "Meta description"
+        widget: "text"
+        required: false
+        hint: "Brief page description shown on search engines and when sharing."
+      - name: "body"
+        label: "Content"
+        widget: "markdown"
+        buttons: [heading-two, heading-three, bold, italic, link, bulleted-list]
+        editor_components: []
+        modes: [rich_text]
+        required: false
+
   - name: "settings"
     label: "Settings"
     create: false
