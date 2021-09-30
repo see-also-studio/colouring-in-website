@@ -39,6 +39,7 @@ class PaintingCanvas {
   toggle() {
     if(this.enabled) {
       this.enabled = false;
+      this.clear();
     } else {
       this.enabled = true;
     }
