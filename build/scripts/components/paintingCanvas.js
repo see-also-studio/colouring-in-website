@@ -156,5 +156,6 @@ document.querySelector('.painting-palette__button').addEventListener('click', fu
     item.dispatchEvent(clearEvent);
   });
   this.classList.toggle('disabled');
+  document.querySelector('body').classList.toggle('painting-disabled');
 });
 }

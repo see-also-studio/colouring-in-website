@@ -1,6 +1,8 @@
-main,
-.issues__wrapper {
-  cursor: url('/assets/images/brush.svg') 16 16, auto;
+body:not(.painting-disabled) {
+  main,
+  .issues__wrapper {
+    cursor: url('/assets/images/brush.svg') 16 16, auto;
+  }
 }
 
 .painting-canvas {
