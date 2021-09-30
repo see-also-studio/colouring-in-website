@@ -149,9 +149,11 @@ canvasAll.forEach(function(el) {
 const clearEvent = new Event('clearcanvas', {'bubbles': true, 'cancelable': false});
 const resizeEl = new Event('resizeel', {'bubbles': true, 'cancelable': false});
 
+if (document.querySelector('.painting-palette__button')) {
 document.querySelector('.painting-palette__button').addEventListener('click', function() {
   canvasAll.forEach(function(item) {
     item.dispatchEvent(clearEvent);
   });
   this.classList.toggle('disabled');
 });
+}

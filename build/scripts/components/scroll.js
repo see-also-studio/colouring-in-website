@@ -2,7 +2,7 @@
  * Slide over scroll
  *
  */
-
+if (document.querySelector("#issues")) {
 slidePagesCheck();
 document.querySelector('#issues').addEventListener('scroll', function(e) {
   window.requestAnimationFrame(slidePagesCheck);
@@ -33,4 +33,5 @@ function slidePagesCheck() {
     }
     item.style.top = topOffset + 'px';
   });
+}
 }
