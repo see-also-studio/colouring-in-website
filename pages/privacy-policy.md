@@ -21,16 +21,12 @@ This website may collect the following information via its contact and enquiry f
 
 * Your contact information including email address 
 
-How we use this data:
+How we may use this data:
 
-* Collecting this data helps us to understand further the scope of our project and communications.
-
-Specifically, we may use data:
-
-* For our own internal records
 * To contact you in response to a specific enquiry
 * To send you promotional emails about the project
-* We will not share your personal information with or sell it to third-party marketers.
+
+We will not share your personal information with or sell it to third-party marketers.
 
 ### Our service partners
 
@@ -52,4 +48,4 @@ To make a request please contact us [admin@colouring-in.com](mailto:admin@colour
 
 ### Links to external websites
 
-Our website may contain links to other websites. We have no control of websites outside of https://www.colouring-in.com. We are not responsible for the content of other websites, or for the protection or privacy of data you submit to them.
+Our website may contain links to other websites. We have no control of websites outside of <https://www.colouring-in.com>. We are not responsible for the content of other websites, or for the protection or privacy of data you submit to them.
