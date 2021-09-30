@@ -1,8 +1,8 @@
 ---
-title: The City
+title: Nostalgia
 visible: true
-meta1: Released Month Year
-meta2: 1/1 –– Introduction
+meta1: Issue 3
+meta2: To be released November 2022
 contributors: []
 content: Coming soon.
 images: []

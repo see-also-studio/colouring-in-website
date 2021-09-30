@@ -13,5 +13,6 @@ newsletterPlaceholder: Email
 newsletterButton: Subscribe
 newsletterAction: https://luisevormittag.us1.list-manage.com/subscribe/post?u=9d814d147dde622b20aad5bed&amp;id=595952f2cd
 type: contact
-newsletterLabel: Join our mailing list! We'll only email you when a new issue arrives.
+newsletterLabel: If you would like to receive email updates from us please sign
+  up below. You can expect to hear from us about twice a year.
 ---

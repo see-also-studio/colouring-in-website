@@ -1,8 +1,8 @@
 ---
 title: Truth
 visible: true
-meta1: Released Month Year
-meta2: 1/1 –– Introduction
+meta1: Issue 4
+meta2: To be released June 2023
 contributors: []
 content: Coming soon.
 images: []
