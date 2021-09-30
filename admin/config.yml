@@ -118,6 +118,7 @@ collections:
           - name: "newsletterAction"
             label: "Mailchimp submit action url"
             widget: "string"
+            required: false
 
       - name: "colophon"
         label: "Colophon"
