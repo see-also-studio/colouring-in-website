@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
 
     if (href && (!href.includes('colouring-in.com') && !href.startsWith('/') && !href.startsWith('#'))) {
       tokens[idx].attrPush([ 'target', '_blank' ]);
-      //tokens[idx].attrPush([ 'rel', 'noopener noreferrer' ]);
+      tokens[idx].attrPush([ 'rel', 'noopener' ]);
     }
   });
     eleventyConfig.addFilter("markdown", (content) => {

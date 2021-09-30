@@ -7,7 +7,7 @@
       <ul class="image-grid">
         {% for image in item.data.images %}
         <li class="image-grid__item">
-          {% if image.href %}<a href="{{ image.href }}" target="_blank">{% endif %}
+          {% if image.href %}<a href="{{ image.href }}" target="_blank" rel="noopener">{% endif %}
           <img alt="{{ image.alt }}"
             sizes="(max-width: 679px) 144px, 10vw"
             srcset="{{ image.src }}?nf_resize=fit&w=144&h=96 144w,
