@@ -20,12 +20,12 @@ class PaintingCanvas {
     this.memCtx = this.memCanvas.getContext('2d');
     this.points = [];
     this.mouseListener.addEventListener('mouseenter', (e) => this.move(e));
-    this.mouseListener.addEventListener('touchstart', (e) => this.move(e));
+    this.mouseListener.addEventListener('touchstart', (e) => this.move(e), { passive: true });
     this.mouseListener.addEventListener('mousemove', (e) => this.move(e));
-    this.mouseListener.addEventListener('touchmove', (e) => this.move(e));
-    this.mouseListener.addEventListener('wheel', (e) => this.move(e));
+    this.mouseListener.addEventListener('touchmove', (e) => this.move(e), { passive: true });
+    this.mouseListener.addEventListener('wheel', (e) => this.move(e), { passive: true });
     this.mouseListener.addEventListener('mouseleave', (e) => this.end(e));
-    this.mouseListener.addEventListener('touchend', (e) => this.end(e));
+    this.mouseListener.addEventListener('touchend', (e) => this.end(e), { passive: true });
     window.addEventListener('resize', () => this.resize());
     this.canvas.addEventListener('resizeel', () => this.resize());
     this.canvas.addEventListener('clearcanvas', (e) => this.clear());
