@@ -16,7 +16,15 @@
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% if settings.analytics.googletag %}
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-{{ settings.analytics.googletag }}"></script>
-  <script src="assets/gtag.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-{{ settings.analytics.googletag }}', {
+      'storage': 'none',
+      'client_storage': 'none',
+    });
+  </script>
   {% endif %}
 </head>
 <body style="--color-accent:{{ settings.styles.color or '#dae4ea' }};--color-accent--dark:{{ settings.styles.colorDark or '#7abae0' }};">
