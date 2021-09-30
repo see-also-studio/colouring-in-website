@@ -18,10 +18,7 @@ content: >-
   ISSN 0000-0000
 
 
-  View our Accessibility Statement
-
-
-  View our Privacy Policy
+  View our [Accessibility Statement](/accessibility-statement/)
 images:
   - src: /images/uploads/ual.svg
     href: https://www.arts.ac.uk/colleges/camberwell-college-of-arts
