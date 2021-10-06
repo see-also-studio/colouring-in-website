@@ -15,16 +15,14 @@
   {% include "partials/opengraph.njk" %}
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% if settings.analytics.google %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ settings.analytics.google }}"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{ settings.analytics.google }}', {
-      'client_storage': 'none',
-      'cookie_expires': 0,
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', '{{ settings.analytics.google }}', {
+      'storange': 'none',
     });
+    ga('send', 'pageview');
   </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
   {% endif %}
 </head>
 <body style="--color-accent:{{ settings.styles.color or '#dae4ea' }};--color-accent--dark:{{ settings.styles.colorDark or '#7abae0' }};">
