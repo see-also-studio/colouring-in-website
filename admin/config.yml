@@ -328,9 +328,10 @@ collections:
         file: "_data/settings/analytics.json"
         fields:
           - name: "google"
-            label: "Google analytics ID (excluding initial UA-)"
+            label: "Google Analytics Measurement ID"
             widget: "string"
             required: false
+            hint: "This should be a string in the format G-xxxxxxxxxx"
           - name: "cloudflare"
             label: "Cloudflare analytics beacon token"
             widget: "string"
