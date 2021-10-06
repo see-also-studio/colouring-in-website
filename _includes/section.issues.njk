@@ -60,7 +60,7 @@
           <span class="button--round image-button disabled">View Images</span>
         {% endif %}
         {% if issue.data.pdfUpload %}
-        <a class="button--round pdf-button" target="_blank" href="{{ issue.data.pdfUpload }}">Read PDF</a>
+        <a class="button--round pdf-button" onclick="ga('send', 'event', 'pdf', 'download', 'issue {{ issue.data.title | slug }}')" target="_blank" href="{{ issue.data.pdfUpload }}">Read PDF</a>
         {% else %}
         <span class="button--round pdf-button disabled">Read PDF</span>
         {% endif %}
