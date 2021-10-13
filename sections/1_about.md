@@ -14,7 +14,4 @@ content: >-
 
 
   We are interested in discovering more about the impact illustration currently has in these areas and the possibilities of critical illustration practice to make meaningful interventions.
-
-
-  The PDF publications on this website are working papers – an initial insight into our research that we will develop into a more fully realised publication at a later stage. We invite you to write to us with your thoughts, feedback and references to innovative work that might enrich these discussions.
 ---
