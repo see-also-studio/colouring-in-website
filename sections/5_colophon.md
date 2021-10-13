@@ -15,7 +15,7 @@ content: >-
 
   Colouring In\
 
-  ISSN pending
+  ISSN 2752-9533
 
 
   View our [Accessibility Statement](/accessibility-statement/)
