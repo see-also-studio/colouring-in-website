@@ -59,4 +59,6 @@ references:
   - content: "Matilsky, B. (2018) *[Endangered Species, Artists on the Front Line of
       Biodiversity](https://www.academia.edu/38021678/Endangered_Species_Artist\
       s_on_the_Front_Line_of_Biodiversity)*, Washington: Whatcom Museum"
+  - content: Sadokierski, Z. et al. (2020 – ongoing) *[Spec
+      Studio](https://specstudio.com.au/)*
 ---
