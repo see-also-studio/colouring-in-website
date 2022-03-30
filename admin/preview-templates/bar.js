@@ -7,7 +7,7 @@ const Bar = createClass({
   render() {
     const entry = this.props.entry;
 
-    const content = entry.getIn(['data', 'content'], null);
+    const content = this.props.widgetFor('content');
 
     return html`
       <main>

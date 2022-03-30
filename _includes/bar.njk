@@ -2,7 +2,7 @@
   <span>
     {% for item in collections.index %}
     {% if item.data.type === 'bar' %}
-    {{ item.data.content }}
+    {{ item.data.content | markdown | safe }}
     {% endif %}
     {% endfor %}
   </span>

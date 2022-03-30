@@ -167,7 +167,10 @@ collections:
             widget: "hidden"
           - name: "content"
             label: "Bar text"
-            widget: "string"
+            widget: "markdown"
+            buttons: [italic, link]
+            editor_components: []
+            modes: [rich_text]
 
   - name: "issues"
     label: "Issues"
