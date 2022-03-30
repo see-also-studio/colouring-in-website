@@ -31,19 +31,19 @@ content: >-
 pdfUpload: /images/uploads/colouring-in-nature.pdf
 images:
   - src: /images/uploads/nil08.jpg
-    alt: ""
+    alt: Illustration of a stone
   - src: /images/uploads/nature_p2_02_foliage.png
-    alt: ""
+    alt: Illustration of leaves and flowers
   - src: /images/uploads/hd07.jpg
-    alt: ""
+    alt: Photograph of deconstructed iPhones. Components suspended in resin.
   - src: /images/uploads/11_morrish-sb.png
-    alt: Log
+    alt: An illustration of a log
   - src: /images/uploads/3-joshua-sun-untitled-2021.png
-    alt: ""
+    alt: Illustration of birds in an oil spill
   - src: /images/uploads/02_audubon-flamingo-lv.png
-    alt: Flamingo
+    alt: An illustration of a red flamingo
   - src: /images/uploads/01.jpg
-    alt: ""
+    alt: Illustration of a potted plant
 references:
   - content: Aloi, G. et al. (Ed.) (2007–ongoing) *[Antennae
       journal](http://www.antennae.org.uk/)* – The Journal of Nature in Visual
