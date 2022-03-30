@@ -39,6 +39,11 @@
       </div>
       {% endif %}
       <div class="issues__buttons">
+        {% if issue.data.pdfUpload %}
+        <a class="button--round pdf-button" title="Open PDF for Colouring In, {{ issue.data.title }}" onclick="ga('send', 'event', 'pdf', 'download', 'issue {{ issue.data.title | slug }}')" target="_blank" href="{{ issue.data.pdfUpload }}">Read PDF</a>
+        {% else %}
+        <span class="button--round pdf-button disabled">Read PDF</span>
+        {% endif %}
         {% if issue.data.images | length %}
         <div class="images-scatter">
           <button class="button--round image-button" title="Scatter {{ issue.data.title | slug }} images">View Images</button>
@@ -59,13 +64,8 @@
         {% else %}
           <span class="button--round image-button disabled">View Images</span>
         {% endif %}
-        {% if issue.data.pdfUpload %}
-        <a class="button--round pdf-button" onclick="ga('send', 'event', 'pdf', 'download', 'issue {{ issue.data.title | slug }}')" target="_blank" href="{{ issue.data.pdfUpload }}">Read PDF</a>
-        {% else %}
-        <span class="button--round pdf-button disabled">Read PDF</span>
-        {% endif %}
         {% if issue.data.references | length %}
-          <a class="button--round references-button" href="#{{ loop.index }}-{{ issue.data.title | slug }}-references">{{ referencesTitle }}</a>
+          <a class="button--round references-button" title="Further reading for Colouring In, {{ issue.data.title }}" href="#{{ loop.index }}-{{ issue.data.title | slug }}-references">{{ referencesTitle }}</a>
         {% else %}
         {% endif %}
       </div>
