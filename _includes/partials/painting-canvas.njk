@@ -1,1 +1,1 @@
-<canvas class="painting-canvas" data-width="30" data-color="{{ settings.styles.color }}"></canvas>
+<canvas class="painting-canvas" data-width="30" data-color="{% if issue.data.color | length %}{{ issue.data.color }}{% else %}{{ settings.styles.color }}{% endif %}"></canvas>

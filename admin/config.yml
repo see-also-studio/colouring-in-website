@@ -262,6 +262,12 @@ collections:
             editor_components: []
             modes: [rich_text]
             required: false
+      - label: "Colour"
+        name: "color"
+        widget: "color"
+        allowInput: true
+        required: false
+        hint: "Colour used for this project's paint overlay."
 
   - name: "pages"
     label: "Extra pages"
