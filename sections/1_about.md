@@ -6,8 +6,8 @@ content: >-
   Black](https://www.kingston.ac.uk/staff/profile/dr-stephanie-black-1216/)
   (Kingston School of Art) and [Luise
   Vormittag](https://www.arts.ac.uk/colleges/camberwell-college-of-arts/people/luise-vormittag)
-  (Camberwell College of Art, UAL), through which we are examining the impact of
-  illustration on themes of critical importance to global debates.
+  (Camberwell College of Arts, UAL), through which we are examining the impact
+  of illustration on themes of critical importance to global debates.
 
 
   We are taking a cross-disciplinary approach to look specifically at the intersection of illustration with other areas and disciplines, as we focus on shared concerns such as the natural world, urbanism or remembrance and identity construction.
