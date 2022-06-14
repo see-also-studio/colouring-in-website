@@ -18,10 +18,10 @@ contributors:
   - name: "* Heritage: from intangible cultural heritage to officially sanctioned
       and nationally celebrated manifestations; the heritage industry; the gift
       shop & the public-engagement workshop"
-  - name: "* Nostalgia: the aesthetic, emotional, social and political mobilisation
+  - name: "• Nostalgia: the aesthetic, emotional, social and political mobilisation
       of materials from the past"
 content: >-
-  Call for papers: Colouring In: The Past
+  Call for papers!
 
 
   Issue #3 of Colouring In will emerge from a generative one-day in-person symposium in November 2022. Colouring In: The Past is concerned with illustrative strategies that unearth, activate and re-position our relationship to the past. We invite paper or panel proposals on relevant topics, including, but not limited to the themes below. One panel within the day’s schedule will be comprised of papers arising from this call. We are keen to extend the invitation to non-illustrators whose research is concerned with the creation and use of images (and other visual matter) in relation to the past. 
