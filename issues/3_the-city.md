@@ -37,7 +37,11 @@ rightCol: >-
 
   * History & historiography: the possibilities and limitations of historiographic methods; creative approaches to historiographic bias and positionality; augmentation and fabulation, inversion and reinvention of archival documents; counter archives
 
+
+
   * History of illustration itself; media histories
+
+
 
   * Memory: subjectivity and partiality in recollection; witnessing and testimony; processes of collective memorialisation and remembrance 
 
