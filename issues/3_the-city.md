@@ -27,6 +27,7 @@ content: >-
 
   * Colouring In: The Past due to be published Spring 2023
 rightCol: View PDF (below) for more details on what we're looking for in proposals.
+pdfUpload: /images/uploads/ci_cfp_past.pdf
 images:
   - src: /images/uploads/unknown-2.png
   - src: /images/uploads/unknown-4.png
