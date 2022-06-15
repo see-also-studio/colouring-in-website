@@ -17,18 +17,27 @@ content: >-
   Speakers will be invited to submit written-up versions of their presentations for inclusion in Issue #3 of Colouring In.
 
 
-  Please [email](<mailto:hello@colouring-in.com?subject=Colouring In: Call for papers (The Past)>) Abstract proposals of 300 words by 30 Sept 2022
+  * Please [email](<mailto:hello@colouring-in.com?subject=Colouring In: Call for papers (The Past)>) Abstract proposals of 300 words by 30 Sept 2022
 
+  * You will receive a response by 14 Oct 2022
 
-  You will receive a response by 14 Oct 2022
+  * Symposium Fri 25 Nov 2022
 
+  * Written-up papers due 30 Jan 2023
 
-  Symposium Fri 25 Nov 2022
+  * Colouring In: The Past due to be published Spring 2023
+rightCol: >-
+  
 
-
-  Written-up papers due 30 Jan 2023
-
-
-  Colouring In: The Past due to be published Spring 2023
-images: []
+  Read PDF (below) for more details on what we're looking for in proposals  [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
+pdfUpload: /images/uploads/ci_cfp_past.pdf
+images:
+  - src: /images/uploads/unknown-2.png
+  - src: /images/uploads/unknown-4.png
+  - src: /images/uploads/unknown-19.png
+  - src: /images/uploads/unknown-21.png
+  - src: /images/uploads/unknown-22.png
+  - src: /images/uploads/unknown-23.png
+  - src: /images/uploads/unknown-28.png
+  - src: /images/uploads/unknown-47.png
 ---

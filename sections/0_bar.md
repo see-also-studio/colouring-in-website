@@ -1,6 +1,5 @@
 ---
-title: "Bar"
+title: Bar
 type: bar
-content: "More topics coming soon"
-
+content: Scroll to view more issues
 ---
