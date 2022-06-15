@@ -17,49 +17,16 @@ content: >-
   Speakers will be invited to submit written-up versions of their presentations for inclusion in Issue #3 of Colouring In.
 
 
-  Please [email](<mailto:hello@colouring-in.com?subject=Colouring In: Call for papers (The Past)>) Abstract proposals of 300 words by 30 Sept 2022
+  * Please [email](<mailto:hello@colouring-in.com?subject=Colouring In: Call for papers (The Past)>) Abstract proposals of 300 words by 30 Sept 2022
 
+  * You will receive a response by 14 Oct 2022
 
-  You will receive a response by 14 Oct 2022
+  * Symposium Fri 25 Nov 2022
 
+  * Written-up papers due 30 Jan 2023
 
-  Symposium Fri 25 Nov 2022
-
-
-  Written-up papers due 30 Jan 2023
-
-
-  Colouring In: The Past due to be published Spring 2023
-rightCol: >-
-  We are interested in proposals connecting the following themes and ideas to
-  illustrative and other visual practices:
-
-
-  * History & historiography: the possibilities and limitations of historiographic methods; creative approaches to historiographic bias and positionality; augmentation and fabulation, inversion and reinvention of archival documents; counter archives
-
-
-
-  * History of illustration itself; media histories
-
-
-
-  * Memory: subjectivity and partiality in recollection; witnessing and testimony; processes of collective memorialisation and remembrance 
-
-  * Institutional and personal collections and archives; the accumulation of artefacts and trinkets
-
-  * Heritage: from intangible cultural heritage to officially sanctioned and nationally celebrated manifestations; the heritage industry; the gift shop & the public-engagement workshop
-
-  * Nostalgia: the aesthetic, emotional, social and political mobilisation of materials from the past 
-
-  * History identity: use of the past to invent, consolidate and fracture communities
-
-  * Illustrative representations of passing time: spatial, sequential, temporal
-
-  * Illustration as a durational practice concerned with the recording of time
-
-  * Cycles of fashion and the celebration of styles and artefacts from the past; sentimentality; postmodern parody and pastiche; retrofuturism
-
-  * Falsifying traces of the past; fake vintage; customised ageing of materials and representations
+  * Colouring In: The Past due to be published Spring 2023
+rightCol: View PDF (below) for more details on what we're looking for in proposals.
 images:
   - src: /images/uploads/unknown-2.png
   - src: /images/uploads/unknown-4.png
