@@ -30,5 +30,31 @@ content: >-
 
 
   Colouring In: The Past due to be published Spring 2023
+rightCol: >-
+  We are interested in proposals connecting the following themes and ideas to
+  illustrative and other visual practices:
+
+
+  * History & historiography: the possibilities and limitations of historiographic methods; creative approaches to historiographic bias and positionality; augmentation and fabulation, inversion and reinvention of archival documents; counter archives
+
+  * History of illustration itself; media histories
+
+  * Memory: subjectivity and partiality in recollection; witnessing and testimony; processes of collective memorialisation and remembrance 
+
+  * Institutional and personal collections and archives; the accumulation of artefacts and trinkets
+
+  * Heritage: from intangible cultural heritage to officially sanctioned and nationally celebrated manifestations; the heritage industry; the gift shop & the public-engagement workshop
+
+  * Nostalgia: the aesthetic, emotional, social and political mobilisation of materials from the past 
+
+  * History identity: use of the past to invent, consolidate and fracture communities
+
+  * Illustrative representations of passing time: spatial, sequential, temporal
+
+  * Illustration as a durational practice concerned with the recording of time
+
+  * Cycles of fashion and the celebration of styles and artefacts from the past; sentimentality; postmodern parody and pastiche; retrofuturism
+
+  * Falsifying traces of the past; fake vintage; customised ageing of materials and representations
 images: []
 ---
