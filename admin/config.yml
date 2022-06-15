@@ -216,8 +216,15 @@ collections:
       - label: "Issue Introduction Summary"
         name: "content"
         widget: "markdown"
-        buttons: [italic, link]
-        editor_components: [image]
+        buttons: [italic, link, bulleted-list]
+        editor_components: []
+        modes: [rich_text]
+        required: false
+      - label: "Temporary right column content (Only displays if contributors not populated)"
+        name: "rightCol"
+        widget: "markdown"
+        buttons: [italic, link, bulleted-list]
+        editor_components: []
         modes: [rich_text]
         required: false
       - label: "PDF Upload (max 8 MB)"

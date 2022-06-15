@@ -58,6 +58,10 @@
       }
     }
 
+    .issues__content-right {
+      margin-bottom: 3.8em;
+    }
+
     .issues__buttons {
       > * + * {
         margin-top: 0.6em;
@@ -103,6 +107,11 @@
       .issues__contributors {
         grid-column: 2 / span 1;
         grid-row: 2 / span 2;
+      }
+
+      .issues__content-right {
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
       }
 
       .issues__buttons {
