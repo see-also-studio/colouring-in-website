@@ -2,7 +2,7 @@
 title: The Past
 visible: true
 meta1: Issue 3
-meta2: To be released Spring 2023
+meta2: ""
 contributors: []
 content: >-
   Call for papers!
