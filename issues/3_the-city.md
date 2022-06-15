@@ -56,5 +56,13 @@ rightCol: >-
   * Cycles of fashion and the celebration of styles and artefacts from the past; sentimentality; postmodern parody and pastiche; retrofuturism
 
   * Falsifying traces of the past; fake vintage; customised ageing of materials and representations
-images: []
+images:
+  - src: /images/uploads/unknown-2.png
+  - src: /images/uploads/unknown-4.png
+  - src: /images/uploads/unknown-19.png
+  - src: /images/uploads/unknown-21.png
+  - src: /images/uploads/unknown-22.png
+  - src: /images/uploads/unknown-23.png
+  - src: /images/uploads/unknown-28.png
+  - src: /images/uploads/unknown-47.png
 ---
