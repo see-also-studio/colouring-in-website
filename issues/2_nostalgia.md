@@ -6,4 +6,5 @@ meta2: To be released Summer 2022
 contributors: []
 content: Coming soon.
 images: []
+color: "#f8efda"
 ---
