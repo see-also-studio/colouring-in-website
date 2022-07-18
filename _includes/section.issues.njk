@@ -12,7 +12,7 @@
   {% for issue in collections.issue %}
   {% if issue.data.visible %}
   {% if not (loop.index == 1) %}<div class="spacer"></div>{% endif %}
-  <article id="{{ loop.index }}-{{ issue.data.title | slug }}" class="issues__item">
+  <article id="{{ loop.index }}-{{ issue.data.title | slug }}" class="issues__item"{% if issue.data.released %} data-released="true"{% endif %}>
     <div class="issues__wrapper">
       <div class="issues__meta size-modify">
         <span class="issues__meta1">{{ issue.data.meta1 }}</span>

@@ -1,6 +1,7 @@
 ---
 title: Nature
 visible: true
+released: true
 meta1: Issue 1
 meta2: September 2021
 contributors:

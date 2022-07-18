@@ -188,6 +188,10 @@ collections:
         name: "visible"
         widget: "boolean"
         default: true
+      - label: "Released"
+        name: "released"
+        widget: "boolean"
+        default: false
       - label: "Meta 1"
         name: "meta1"
         widget: "string"

@@ -1,6 +1,7 @@
 ---
 title: The City
 visible: true
+released: true
 meta1: Issue 2
 meta2: July 2022
 contributors:
