@@ -227,14 +227,14 @@ collections:
         editor_components: []
         modes: [rich_text]
         required: false
-      - label: "PDF Upload (max 8 MB)"
+      - label: "PDF Upload (max 20 MB)"
         name: "pdfUpload"
         widget: "file"
         required: false
         media_library:
           allow_multiple: false
           config:
-            max_file_size: 8000000
+            max_file_size: 20000000
       - label: "Images (.PNG, .JPEG, max 5MB)"
         label_singular: "Image"
         name: "images"
