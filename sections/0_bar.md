@@ -1,5 +1,5 @@
 ---
 title: Bar
 type: bar
-content: Scroll to view more issues
+content: Scroll up/down to view more issues
 ---
