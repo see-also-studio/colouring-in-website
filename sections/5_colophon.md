@@ -2,11 +2,11 @@
 title: Colophon
 type: colophon
 content: >-
-  All content © Colouring In, 2021, unless otherwise noted.\
+  All content © Colouring In, 2021–22, unless otherwise noted.\
 
   \
 
-  Colouring In has been generously supported by the Camberwell, Chelsea and Wimbledon Research Staff Fund, UAL. \
+  Colouring In has been generously supported by the Camberwell, Chelsea and Wimbledon Research Staff Fund, UAL and by the Kingston School of Art Research Support Fund.\
 
   \
 
