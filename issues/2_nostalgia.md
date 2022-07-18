@@ -2,7 +2,7 @@
 title: The City
 visible: true
 meta1: Issue 2
-meta2: To be released Summer 2022
+meta2: July 2022
 contributors:
   - name: Stuart Bannocks
   - name: Franz Buhr
@@ -25,7 +25,13 @@ content: >-
 
   Humans are becoming city-dwellers in increasing numbers, with over half of us worldwide living in a city today. Cities offer many ecological, cultural, economic and social benefits. However, their shortcomings are also significant, such as pollution, cost of living, quality of life and imbalances of power. In our second issue of Colouring In we tackle the relationship between illustration and the city: from street art to urban mapping, representations of fictional cities to the visual dérive, we explore illustrative strategies to draw out urban histories, reveal city dwellers’ struggles for space and visibility, and present polyvocal narratives that uphold the vitality and richness of our urban environments.
 pdfUpload: /images/uploads/colouring-in-issue-2-the-city.pdf
-images: []
+images:
+  - src: /images/uploads/image5.jpeg
+  - src: /images/uploads/image37_yh.jpg
+  - src: /images/uploads/workshop01.jpg
+  - src: /images/uploads/supercity_13984378811_o.jpg
+  - src: /images/uploads/pigeon1.jpeg
+  - src: /images/uploads/12_vangad-sb.jpg
 references:
   - content: Coming soon.
 color: "#f8efda"
