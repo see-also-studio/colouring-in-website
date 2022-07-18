@@ -6,7 +6,10 @@ meta2: To be released Summer 2022
 contributors:
   - name: Stuart Bannocks
   - name: Franz Buhr
-  - name: Yo Hosoyamada, Giada Maestra, Becky Moriarty & Xiaobin Wang
+  - name: Yo Hosoyamada
+  - name: Giada Maestra
+  - name: " Becky Moriarty"
+  - name: Xiaobin Wang
   - name: Ksenia Kopalova
   - name: David Madden
   - name: Mitch Miller
