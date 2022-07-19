@@ -165,12 +165,20 @@ collections:
           - name: "title"
             label: "Title"
             widget: "hidden"
-          - name: "content"
-            label: "Bar text"
-            widget: "markdown"
-            buttons: [italic, link]
-            editor_components: []
-            modes: [rich_text]
+          - name: "bars"
+            widget: "list"
+            summary: '{{fields.content}}'
+            fields:
+              - name: "content"
+                label: "Bar text"
+                widget: "markdown"
+                buttons: [italic, link]
+                editor_components: []
+                modes: [rich_text]
+              - name: "color"
+                label: "Bar colour (optional)"
+                widget: "color"
+                allowInput: true
 
   - name: "issues"
     label: "Issues"

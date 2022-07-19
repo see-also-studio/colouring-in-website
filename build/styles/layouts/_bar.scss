@@ -1,34 +1,40 @@
-#bar {
+#bars {
   font-size: var(--font-size--secondary);
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: var(--bar-height);
   color: inherit;
   background: var(--color-accent);
   overflow: hidden;
   white-space: nowrap;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   z-index: 30;
 
-  span {
-    position: relative;
-    transform: translateX(-0.6em);
-    padding-left: 1.46em;
-    padding-right: 0.6em;
+  .bar {
+    background: var(--color-accent);
+    display: flex;
+    height: var(--bar-height);
+    align-items: center;
 
-    &::before {
-      display: block;
-      content: "";
-      position: absolute;
-      border: 1px solid var(--color-foreground);
-      border-radius: 50%;
-      width: 0.86em;
-      height: 0.57em;
-      left: 0;
-      top: 0.24em;
+    span {
+      position: relative;
+      transform: translateX(-0.6em);
+      padding-left: 1.46em;
+      padding-right: 0.6em;
+
+      &::before {
+        display: block;
+        content: "";
+        position: absolute;
+        border: 1px solid var(--color-foreground);
+        border-radius: 50%;
+        width: 0.86em;
+        height: 0.57em;
+        left: 0;
+        top: 0.24em;
+      }
     }
   }
 

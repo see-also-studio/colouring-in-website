@@ -1,9 +1,11 @@
-<div id="bar" class="bar">
-  <span>
-    {% for item in collections.index %}
-    {% if item.data.type === 'bar' %}
-    {{ item.data.content | markdown | safe }}
-    {% endif %}
-    {% endfor %}
-  </span>
+{% for item in collections.index %}
+{% if item.data.type === 'bar' %}
+<div id="bars">
+  {% for bar in item.data.bars %}
+  <div class="bar"{% if bar.color %} style="--color-accent:{{ bar.color }}"{% endif %}>
+    <span>{{ bar.content | markdown | safe }}</span>
+  </div>
+  {% endfor %}
 </div>
+{% endif %}
+{% endfor %}
