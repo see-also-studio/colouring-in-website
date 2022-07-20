@@ -8,15 +8,16 @@ contributors:
   - name: Stuart Bannocks
   - name: Franz Buhr
   - name: Yo Hosoyamada
-  - name: Giada Maestra
-  - name: " Becky Moriarty"
-  - name: Xiaobin Wang
   - name: Ksenia Kopalova
   - name: David Madden
+  - name: Giada Maestra
   - name: Mitch Miller
+  - name: Becky Moriarty
   - name: Billie Muraben
   - name: Sergios Striklogiannis
   - name: Olivia Twist
+  - name: Xiaobin Wang
+  - name: "& illustration students from UAL and KSA"
 content: >-
   Cities are complex and in constant flux. How can illustration address
   something as overwhelmingly cacophonous and vast as the urban environment?
