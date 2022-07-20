@@ -17,7 +17,7 @@ contributors:
   - name: Sergios Striklogiannis
   - name: Olivia Twist
   - name: Xiaobin Wang
-  - name: "& illustration students from UAL and KSA"
+  - name: "& various illustration students from KSA and UAL"
 content: >-
   Cities are complex and in constant flux. How can illustration address
   something as overwhelmingly cacophonous and vast as the urban environment?
