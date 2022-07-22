@@ -1,7 +1,9 @@
 {% set showReferences = false %}
+{% set referencesLength = 0 %}
 {% for item in collections.issue %}
 {% if item.data.references | length %}
 {% set showReferences = true %}
+{% set referencesLength = referencesLength + 1 %}
 {% endif %}
 {% endfor %}
 
@@ -14,7 +16,7 @@
     {% for issue in collections.issue %}
     {% if issue.data.references | length %}
     <li id="{{ loop.index }}-{{ issue.data.title | slug }}-references">
-      <details{{ " open" if (loop.index == 1) and (issue.data.references | length) }} >
+      <details{{ " open" if (loop.index == referencesLength) and (issue.data.references | length) }} >
         <summary><span class="issues__title">{{ issue.data.title }}</span></summary>
         <ul class="content">
           {% for reference in issue.data.references %}
