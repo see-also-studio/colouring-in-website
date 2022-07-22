@@ -14,7 +14,10 @@
     {% for issue in collections.issue %}
     {% if issue.data.references | length %}
     <li id="{{ loop.index }}-{{ issue.data.title | slug }}-references">
-      <details{{ " open" if (loop.index == referencesLength) and (issue.data.references | length) }} >
+      <details
+        {{ " open" if (loop.index == referencesLength) and (issue.data.references | length) }}
+        style="--color-accent: {% if issue.data.color | length %}{{ issue.data.color }}{% else %}{{ settings.styles.color }}{% endif %}"
+        >
         <summary><span class="issues__title">{{ issue.data.title }}</span></summary>
         <ul class="content">
           {% for reference in issue.data.references %}
