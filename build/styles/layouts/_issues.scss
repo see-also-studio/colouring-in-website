@@ -29,7 +29,16 @@
     background: var(--color-background);
     position: relative;
     box-sizing: border-box;
-    box-shadow: 0 -0.5em 0.5em rgba(255, 255, 255, 0.5);
+    background: linear-gradient(
+      180deg,
+      rgb(215,215,210) 0%,
+      rgb(195,195,190) 10px,
+      rgb(195,195,190) 15px,
+      rgb(225,225,219) 35px,
+      rgb(239,239,233) 50px,
+      rgb(239,239,233) calc(100% - 32px),
+      rgb(215,215,213) 100%
+    );
 
     .issues__meta {
       font-size: var(--font-size--secondary);
@@ -69,17 +78,6 @@
       }
     }
 
-    &::before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0.5rem;
-      left: 0;
-      width: 100%;
-      height: 6px;
-      background: var(--color-foreground);
-      filter: blur(0.75rem);
-    }
 
     @include breakpoint(medium) {
       grid-template-columns: 1fr 0.8fr;
