@@ -15,7 +15,7 @@
     overflow-y: scroll;
     margin-left: 0;
     margin-right: auto;
-    height: calc(100% - var(--bar-height));
+    height: calc(100% - (var(--bar-height) * var(--bar-amount)));
   }
 }
 
@@ -24,7 +24,7 @@
     display: grid;
     grid-row-gap: 1rem;
     align-content: start;
-    min-height: calc(100vh - var(--bar-height));
+    min-height: calc(100vh - (var(--bar-height) * var(--bar-amount)));
     padding: 2.4rem 0.85rem 3.4rem;
     background: var(--color-background);
     position: relative;

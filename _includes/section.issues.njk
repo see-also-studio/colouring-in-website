@@ -1,5 +1,12 @@
 {% set contributorsTitle = "Contributors" %}
 {% set referencesTitle = "Reading List" %}
+{% set barAmount %}
+  {% for item in collections.index %}
+  {% if item.data.type === 'bar' %}
+  {{ item.data.bars | length }}
+  {% endif %}
+  {% endfor %}
+{% endset %}
 {% for item in collections.index %}
   {% if item.data.type === 'contributors' %}
     {% set contributorsTitle %}{{ item.data.title }}{% endset %}
@@ -7,7 +14,7 @@
     {% set referencesTitle %}{{ item.data.title }}{% endset %}
   {% endif %}
 {% endfor %}
-<section id="issues" class="issues col-left scroll">
+<section id="issues" class="issues col-left scroll" style="--bar-amount: {{ barAmount }}">
   {# <h2 class="content-mobile section__heading">Issues</h2> #}
   {% for issue in collections.issue %}
   {% if issue.data.visible %}
