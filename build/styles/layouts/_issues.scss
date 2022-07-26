@@ -2,7 +2,6 @@
   z-index: 20;
 
   .spacer {
-    display: none;
     height: 3.4rem;
     visibility: hidden;
   }
@@ -119,18 +118,8 @@
       }
     }
   }
-}
 
-@include breakpoint(medium) {
-  #issues {
-    .issues__item {
-      &.sticky {
-        position: sticky;
-      }
-    }
-
-    .spacer {
-      display: block;
-    }
+  &.sticky {
+    position: sticky;
   }
 }
