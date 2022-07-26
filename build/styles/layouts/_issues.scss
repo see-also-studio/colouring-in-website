@@ -19,6 +19,8 @@
 }
 
 .issues__item {
+  position: relative;
+
   .issues__wrapper {
     display: grid;
     grid-row-gap: 1rem;
