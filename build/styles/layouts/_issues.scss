@@ -21,6 +21,7 @@
 .issues__item {
   position: relative;
   z-index: 10;
+  -webkit-transform: translateZ(0);
 
   .issues__wrapper {
     display: grid;
