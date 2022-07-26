@@ -19,6 +19,9 @@
 }
 
 .issues__item {
+  position: relative;
+  z-index: 0;
+
   .issues__wrapper {
     display: grid;
     grid-row-gap: 1rem;
@@ -121,5 +124,9 @@
 
   &.sticky {
     position: sticky;
+  }
+
+  &:not(.sticky) {
+    top: 0 !important;
   }
 }
