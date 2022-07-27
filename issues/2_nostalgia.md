@@ -1,5 +1,5 @@
 ---
-title: The City
+title: "Colouring In: The City"
 visible: true
 released: true
 meta1: Issue 2
