@@ -46,4 +46,5 @@ images:
   - src: /images/uploads/unknown-23.png
   - src: /images/uploads/unknown-28.png
   - src: /images/uploads/unknown-47.png
+color: "#e9f8da"
 ---
