@@ -32,9 +32,9 @@ content: >-
   ***The Lacuna’s Calling: A graphic reckoning with history***
 
 
-  [Alexandra D’Onofrio](https://www.research.manchester.ac.uk/portal/alexandra.d%27onofrio-postgrad.html), Lecturer in Social Anthropology \
+  [D﻿r Alexandra D'Onofrio](https://www.research.manchester.ac.uk/portal/alexandra.d%27onofrio-postgrad.html), Visual Anthropologist\
 
-  (University of Manchester)\
+  (﻿University of Manchester)\
 
   ***Drawing and Animating Futures Past: Exploring existential possibilities of migratory experiences***
 rightCol: >-
