@@ -27,7 +27,7 @@ content: >-
 
   [Dr Jaleen Grove](https://www.risd.edu/academics/illustration/faculty/jaleen-grove), Assistant Professor of Illustration \
 
-  (Rhode Island School of Design)\
+  (Rhode Island School of Design, USA)\
 
   ***The Lacuna’s Calling: A graphic reckoning with history***
 
