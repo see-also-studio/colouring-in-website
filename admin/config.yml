@@ -239,6 +239,10 @@ collections:
         editor_components: []
         modes: [rich_text]
         required: false
+      - label: "PDF Button Text"
+        name: "buttonPdf"
+        widget: "string"
+        default: "Read PDF"
       - label: "PDF Upload (max 20 MB)"
         name: "pdfUpload"
         widget: "file"
@@ -247,6 +251,10 @@ collections:
           allow_multiple: false
           config:
             max_file_size: 20000000
+      - label: "Images Button Text"
+        name: "buttonImages"
+        widget: "string"
+        default: "View images"
       - label: "Images (.PNG, .JPEG, max 5MB)"
         label_singular: "Image"
         name: "images"
@@ -266,6 +274,10 @@ collections:
             name: "alt"
             widget: "string"
             required: false
+      - label: "Reading list title"
+        name: "buttonList"
+        widget: "string"
+        default: "Further Reading"
       - label: "Reading list"
         label_singular: "Reading list item"
         name: "references"
