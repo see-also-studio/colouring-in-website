@@ -36,7 +36,9 @@ content: >-
 
   (﻿University of Manchester)\
 
-  ***Drawing and Animating Futures Past: Exploring existential possibilities of migratory experiences***
+  ***Drawing and Animating Futures Past:*** \
+
+  ***Exploring existential possibilities of migratory experiences***
 rightCol: >-
   T﻿ickets for in-person attendance as well as \
 
