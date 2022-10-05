@@ -38,12 +38,12 @@ content: >-
 
   ***Drawing and Animating Futures Past: Exploring existential possibilities of migratory experiences***
 rightCol: >-
-  T﻿ickets for in-person attendance as well as online-broadcast available from
-  24 Oct 2022.
+  T﻿ickets for in-person attendance as well as \
+
+  online-broadcast available from 24 Oct 2022.
 
 
-  Read a more detailed programme by clicking button below [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
-buttonPdf: Read Programme
+  Read a preliminary programme by clicking button below [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
 pdfUpload: ""
 images:
   - src: /images/uploads/unknown-2.png
