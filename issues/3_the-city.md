@@ -25,7 +25,7 @@ content: >-
 
   \
 
-  [J﻿aleen Grove](https://www.risd.edu/academics/illustration/faculty/jaleen-grove), Assistant Professor of Illustration \
+  [Dr Jaleen Grove](https://www.risd.edu/academics/illustration/faculty/jaleen-grove), Assistant Professor of Illustration \
 
   (Rhode Island School of Design)\
 
