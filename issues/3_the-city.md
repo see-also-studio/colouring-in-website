@@ -43,7 +43,7 @@ rightCol: >-
   online-broadcast available from 24 Oct 2022.
 
 
-  Read a preliminary programme by clicking button below [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
+  Read a preliminary programme [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
 buttonPdf: Read Programme
 pdfUpload: /images/uploads/ci_thepast_preliminaryprogramme.pdf
 images:
