@@ -3,39 +3,40 @@ title: The Past
 visible: true
 released: true
 meta1: Issue 3
-meta2: CALL FOR PAPERS
+meta2: SYMPOSIUM
 contributors: []
 content: >-
   Issue #3 of Colouring In will emerge from a generative one-day in-person
-  symposium in November 2022. Colouring In: The Past is concerned with
-  illustrative strategies that unearth, activate and re-position our
-  relationship to the past. We invite paper or panel proposals on relevant
-  topics, including, but not limited to the themes below. One panel within the
-  day’s schedule will be comprised of papers arising from this call. We are keen
-  to extend the invitation to non-illustrators whose research is concerned with
-  the creation and use of images (and other visual matter) in relation to the
-  past. 
+  symposium hosted by the CCW (UAL) Design School.
 
 
-  The symposium will take place in person at Chelsea College of Arts, UAL, London, UK. We are happy to consider online presentations if travel is not possible for individual speakers, but we very much encourage on-site attendance in order to fully participate in the discussion.
+  F﻿riday 25 Nov 2022, 9:00 – 17:00\
+
+  C﻿helsea College of Arts, UAL (London)
 
 
-  Speakers will be invited to submit written-up versions of their presentations for inclusion in Issue #3 of Colouring In.
+  T﻿his symposium is concerned with illustrative strategies that unearth, activate and reposition our relationships to the past. \
+
+  \
+
+  K﻿EYNOTES:\
+
+  \
+
+  J﻿aleen Grove, Assistant Professor of Illustration (Rhode Island School of Design)\
+
+  **The Lacuna’s Calling: a graphic reckoning with history**\
+
+  History-telling as an imaginative act: interweaving personal history, academic scholarship and creative practice, this presentation reflects on the illustrator as a medium for creative incantation in the face of historical gaps and omissions. 
 
 
-  * Please [email](<mailto:hello@colouring-in.com?subject=Colouring In: Call for papers (The Past)>) Abstract proposals of 300 words by 30 Sept 2022
+  Alexandra D’Onofrio, Lecturer in Social Anthropology (University of Manchester)\
 
-  * You will receive a response by 14 Oct 2022
+  **Drawing and Animating Futures Past – exploring existential possibilities of migratory experiences**\
 
-  * Symposium Fri 25 Nov 2022
-
-  * Written-up papers due 30 Jan 2023
-
-  * Colouring In: The Past due to be published Spring 2023
-rightCol: >-
-  
-
-  Read PDF (below) for more details on what we're looking for in proposals  [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
+  How can animation be employed as a collective storytelling practice with a group of migrants in search of better life opportunities? A reflection on the possibilities for anthropologists and visual researchers to investigate other realms of being.
+rightCol: Read more detailed programme by clicking button
+  [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
 pdfUpload: /images/uploads/ci_cfp_thepast.pdf
 images:
   - src: /images/uploads/unknown-2.png
