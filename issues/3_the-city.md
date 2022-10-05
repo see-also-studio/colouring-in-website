@@ -47,9 +47,9 @@ rightCol: >-
 buttonPdf: Read Programme
 pdfUpload: /images/uploads/ci_thepast_preliminaryprogramme.pdf
 images:
-  - src: /images/uploads/unknown-2.png
-  - src: /images/uploads/unknown-4.png
-  - src: /images/uploads/unknown-19.png
+  - src: /images/uploads/alexandrad_onofrio1.jpg
+  - src: /images/uploads/alexandrad_onofrio2.jpeg
+  - src: /images/uploads/alexandrad_onofrio3.jpeg
   - src: /images/uploads/unknown-21.png
   - src: /images/uploads/unknown-22.png
   - src: /images/uploads/unknown-23.png
