@@ -47,13 +47,13 @@ rightCol: >-
 buttonPdf: Read Programme
 pdfUpload: /images/uploads/ci_thepast_preliminaryprogramme.pdf
 images:
-  - src: /images/uploads/alexandrad_onofrio1.jpg
-  - src: /images/uploads/alexandrad_onofrio2.jpeg
-  - src: /images/uploads/alexandrad_onofrio3.jpeg
-  - src: /images/uploads/jaleengrove_timepiece_1.jpg
-  - src: /images/uploads/jaleengrove_timepiece_2.jpg
-  - src: /images/uploads/unknown-23.png
-  - src: /images/uploads/unknown-28.png
-  - src: /images/uploads/unknown-47.png
+  - src: /images/uploads/grove_timepiece_1.jpg
+  - src: /images/uploads/alex1.jpg
+  - src: /images/uploads/alex2.jpeg
+  - src: /images/uploads/alex3.jpeg
+  - src: /images/uploads/img_7994.jpg
+  - src: /images/uploads/img_8014.jpg
+  - src: /images/uploads/img_8069.jpg
+  - src: /images/uploads/grove_timepiece_2.jpg
 color: "#e9f8da"
 ---
