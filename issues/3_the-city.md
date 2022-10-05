@@ -6,8 +6,8 @@ meta1: Issue 3
 meta2: SYMPOSIUM
 contributors: []
 content: >-
-  Issue #3 of Colouring In will emerge from a generative one-day in-person
-  symposium hosted by the CCW (UAL) Design School.
+  Issue #3 of Colouring In will emerge from a generative one-day symposium
+  hosted by the CCW (UAL) Design School.
 
 
   F﻿riday 25 Nov 2022, 9:00 – 17:00\
@@ -37,8 +37,12 @@ content: >-
   (University of Manchester)\
 
   ***Drawing and Animating Futures Past: exploring existential possibilities of migratory experiences***
-rightCol: Read more detailed programme by clicking button
-  [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
+rightCol: >-
+  T﻿ickets for in-person attendance as well as online-broadcast available from
+  24 Oct 2022.
+
+
+  Read a more detailed programme by clicking button below [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
 pdfUpload: /images/uploads/ci_cfp_thepast.pdf
 images:
   - src: /images/uploads/unknown-2.png
