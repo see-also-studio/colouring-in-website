@@ -1,7 +1,7 @@
 ---
 title: The Past
 visible: true
-released: false
+released: true
 meta1: Issue 3
 meta2: CALL FOR PAPERS
 contributors: []
