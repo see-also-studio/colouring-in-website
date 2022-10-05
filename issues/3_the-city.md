@@ -50,8 +50,8 @@ images:
   - src: /images/uploads/alexandrad_onofrio1.jpg
   - src: /images/uploads/alexandrad_onofrio2.jpeg
   - src: /images/uploads/alexandrad_onofrio3.jpeg
-  - src: /images/uploads/unknown-21.png
-  - src: /images/uploads/unknown-22.png
+  - src: /images/uploads/jaleengrove_timepiece_1.jpg
+  - src: /images/uploads/jaleengrove_timepiece_2.jpg
   - src: /images/uploads/unknown-23.png
   - src: /images/uploads/unknown-28.png
   - src: /images/uploads/unknown-47.png
