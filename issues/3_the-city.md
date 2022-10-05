@@ -29,14 +29,14 @@ content: >-
 
   (Rhode Island School of Design)\
 
-  ***The Lacuna’s Calling: a graphic reckoning with history***
+  ***The Lacuna’s Calling: A graphic reckoning with history***
 
 
   [Alexandra D’Onofrio](https://www.research.manchester.ac.uk/portal/alexandra.d%27onofrio-postgrad.html), Lecturer in Social Anthropology \
 
   (University of Manchester)\
 
-  ***Drawing and Animating Futures Past: exploring existential possibilities of migratory experiences***
+  ***Drawing and Animating Futures Past: Exploring existential possibilities of migratory experiences***
 rightCol: >-
   T﻿ickets for in-person attendance as well as online-broadcast available from
   24 Oct 2022.
