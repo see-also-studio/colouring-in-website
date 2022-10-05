@@ -23,18 +23,18 @@ content: >-
 
   \
 
-  J﻿aleen Grove, Assistant Professor of Illustration \
+  [J﻿aleen Grove](https://www.risd.edu/academics/illustration/faculty/jaleen-grove), Assistant Professor of Illustration \
 
   (Rhode Island School of Design)\
 
-  **The Lacuna’s Calling: a graphic reckoning with history**
+  ***The Lacuna’s Calling: a graphic reckoning with history***
 
 
-  Alexandra D’Onofrio, Lecturer in Social Anthropology \
+  [Alexandra D’Onofrio](https://www.research.manchester.ac.uk/portal/alexandra.d%27onofrio-postgrad.html), Lecturer in Social Anthropology \
 
   (University of Manchester)\
 
-  **Drawing and Animating Futures Past – exploring existential possibilities of migratory experiences**
+  ***Drawing and Animating Futures Past: exploring existential possibilities of migratory experiences***
 rightCol: Read more detailed programme by clicking button
   [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
 pdfUpload: /images/uploads/ci_cfp_thepast.pdf
