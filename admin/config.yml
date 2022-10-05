@@ -243,6 +243,7 @@ collections:
         name: "buttonPdf"
         widget: "string"
         default: "Read PDF"
+        required: false
       - label: "PDF Upload (max 20 MB)"
         name: "pdfUpload"
         widget: "file"
@@ -255,6 +256,7 @@ collections:
         name: "buttonImages"
         widget: "string"
         default: "View images"
+        required: false
       - label: "Images (.PNG, .JPEG, max 5MB)"
         label_singular: "Image"
         name: "images"
@@ -278,6 +280,7 @@ collections:
         name: "buttonList"
         widget: "string"
         default: "Further Reading"
+        required: false
       - label: "Reading list"
         label_singular: "Reading list item"
         name: "references"
