@@ -1,5 +1,5 @@
 ---
-title: "Colouring In: The Past"
+title: The Past
 visible: true
 released: true
 meta1: Issue 3
