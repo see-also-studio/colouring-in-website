@@ -1,15 +1,11 @@
 ---
-title: The Past
+title: "Colouring In: The Past"
 visible: true
 released: true
 meta1: Issue 3
 meta2: SYMPOSIUM
 contributors: []
 content: >-
-  Issue #3 of Colouring In will emerge from a generative one-day symposium
-  hosted by the CCW Design School (UAL).
-
-
   F﻿riday 25 Nov 2022, 9:00 – 17:00\
 
   C﻿helsea College of Arts, UAL (London)
