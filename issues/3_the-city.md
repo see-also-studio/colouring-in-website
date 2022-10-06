@@ -6,6 +6,10 @@ meta1: Issue 3
 meta2: SYMPOSIUM
 contributors: []
 content: >-
+  Issue #3 of Colouring In will emerge from a generative one-day symposium
+  hosted by the CCW Design School (UAL).
+
+
   F﻿riday 25 Nov 2022, 9:00 – 17:00\
 
   C﻿helsea College of Arts, UAL (London)
@@ -36,9 +40,8 @@ content: >-
 
   ***Exploring existential possibilities of migratory experiences***
 rightCol: >-
-  T﻿ickets for in-person attendance as well as \
-
-  online-broadcast available from 24 Oct 2022.
+  T﻿ickets for in-person attendance as well as online-broadcast available from
+  24 Oct 2022.
 
 
   Read a preliminary programme [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
