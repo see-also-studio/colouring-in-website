@@ -7,5 +7,5 @@ meta2: To be released 2023
 contributors: []
 content: Coming soon.
 images: []
-color: "#E2DAEB"
+color: "#E0DAEA"
 ---
