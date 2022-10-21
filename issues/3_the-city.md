@@ -40,13 +40,13 @@ content: >-
 
   ***Exploring existential possibilities of migratory experiences***
 rightCol: >-
-  T﻿ickets for in-person attendance as well as online-broadcast available from
-  24 Oct 2022.
+  T﻿ickets for in-person attendance as well as online-broadcast can be booked
+  [HERE](https://www.eventbrite.co.uk/e/colouring-in-the-past-tickets-427817231857?lang=en-gb&locale=en_GB&status=30&view=listing).
 
 
-  Read a preliminary programme [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
+  See our full programme [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
 buttonPdf: Read Programme
-pdfUpload: /images/uploads/ci_thepast_preliminaryprogramme.pdf
+pdfUpload: /images/uploads/colouring-in_thepast_programme.pdf
 images:
   - src: /images/uploads/grove_timepiece_1.jpg
   - src: /images/uploads/alex1.jpg
