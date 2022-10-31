@@ -40,7 +40,8 @@ content: >-
 
   ***Exploring existential possibilities of migratory experiences***
 rightCol: >-
-  T﻿ickets for in-person attendance as well as online-broadcast can be booked
+  We are now fully booked for in-person attendance (you can join waitlist), but
+  there are plenty of online tickets that can be booked
   [HERE](https://www.eventbrite.co.uk/e/colouring-in-the-past-tickets-427817231857?lang=en-gb&locale=en_GB&status=30&view=listing).
 
 
