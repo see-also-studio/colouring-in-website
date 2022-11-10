@@ -26,7 +26,10 @@ imageButtons.forEach(function(item) {
   item.addEventListener('click', function(e) {
     const el = e.currentTarget;
     const imagesList = el.parentNode.parentNode.querySelector('.issues__images');
-    imagesList.classList.add('issues__images--active');
+    imagesList.style.display = '';
+    setTimeout(function() {
+      imagesList.classList.add('issues__images--active');
+    }, 100);
     imageScatter(imagesList);
   }, { passive: true });
 });
@@ -57,5 +60,16 @@ function imageScatter(el) {
                    '--random-left: ' + random.left + ';' +
                    '--delay: ' + random.delay * 100 + ';';
     item.style.cssText = styles;
+
+    const image = item.querySelector('img');
+    if (!image.src) {
+      if (image.hasAttribute('data-srcset')) {
+        image.srcset = image.getAttribute('data-srcset');
+      }
+
+      if (image.hasAttribute('data-src')) {
+        image.src = image.getAttribute('data-src');
+      }
+    }
   });
 }

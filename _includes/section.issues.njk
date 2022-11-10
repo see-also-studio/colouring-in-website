@@ -59,15 +59,14 @@
         {% if issue.data.images | length %}
         <div class="images-scatter">
           <button class="button--round image-button" title="Scatter {{ issue.data.title | slug }} images">{{ issue.data.buttonImages | default('View Images') }}</button>
-          <ul class="issues__images">
+          <ul class="issues__images" style="display:none">
             {% for image in issue.data.images %}
             <li>
               <img alt="{{ image.alt }}"
                 sizes="(max-width: 679px) 240px, 17vw"
-                srcset="{{ image.src }}?nf_resize=fit&w=240&h=240 240w,
-                {{ image.src }}?nf_resize=fit&w=480&h=480 480w,
+                data-srcset="{{ image.src }}?nf_resize=fit&w=240&h=240 240w,
                 {{ image.src }}?nf_resize=fit&w=720&h=720 720w"
-                src="{{ image.src }}"
+                data-src="{{ image.src }}"
                 loading="lazy">
             </li>
             {% endfor %}
