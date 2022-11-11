@@ -10,9 +10,15 @@ content: >-
   hosted by University of the Arts London (UAL).
 
 
-  F﻿riday 25 Nov 2022, 9:00 – 17:00\
+  ~~Friday 25 November 2022,  9:00 – 17:00~~\
 
-  C﻿helsea College of Arts, UAL (London)
+  Po﻿stponed due to UCU strike action.\
+
+  N﻿ew date to be announced soon.\
+
+  \
+
+  Chelsea College of Arts, UAL (London)
 
 
   T﻿his symposium is concerned with illustrative strategies that unearth, activate and reposition our relationships to the past. \
