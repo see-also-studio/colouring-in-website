@@ -14,7 +14,9 @@ content: >-
 
   Po﻿stponed due to UCU strike action\
 
-  N﻿ew date to be announced soon\
+  N﻿EW DATE:\
+
+  F﻿riday 9 December 2022, 9:00 – 17:00\
 
   \
 
