@@ -12,9 +12,7 @@ content: >-
 
   ~~Friday 25 November 2022,  9:00 – 17:00~~\
 
-  Po﻿stponed due to UCU strike action\
-
-  N﻿EW DATE:\
+  Po﻿stponed – N﻿EW DATE: \
 
   F﻿riday 9 December 2022, 9:00 – 17:00\
 
