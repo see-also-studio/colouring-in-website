@@ -54,10 +54,10 @@ pdfUpload: /images/uploads/colouring-in_thepast_programme_9dec.pdf
 images:
   - src: /images/uploads/grove_timepiece_1.jpg
   - src: /images/uploads/alex1.jpg
-  - src: /images/uploads/alex2.jpeg
+  - src: /images/uploads/img_0375.jpg
   - src: /images/uploads/alex3.jpeg
   - src: /images/uploads/img_7994.jpg
-  - src: /images/uploads/img_8014.jpg
+  - src: /images/uploads/img_0252_smaller.jpg
   - src: /images/uploads/img_8069.jpg
   - src: /images/uploads/grove_timepiece_2.jpg
 color: "#e9f8da"
