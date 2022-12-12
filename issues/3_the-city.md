@@ -7,21 +7,12 @@ meta2: SYMPOSIUM
 contributors: []
 content: >-
   Issue #3 of Colouring In will emerge from a generative one-day symposium
-  hosted by University of the Arts London (UAL).
-
-
-  ~~Friday 25 November 2022,  9:00 – 17:00~~\
-
-  Po﻿stponed – N﻿EW DATE: \
-
-  F﻿riday 9 December 2022, 9:00 – 17:00\
+  hosted by University of the Arts London (UAL) which took place on F﻿riday 9
+  December 2022.\
 
   \
 
-  Chelsea College of Arts, UAL (London)
-
-
-  T﻿his symposium is concerned with illustrative strategies that unearth, activate and reposition our relationships to the past. \
+  T﻿his symposium was concerned with illustrative strategies that unearth, activate and reposition our relationships to the past. \
 
   \
 
