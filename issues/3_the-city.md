@@ -48,7 +48,9 @@ content: >-
 rightCol: >-
   P﻿DF publication due out in spring 2023.\
 
-  I﻿n the meantime see our s programme symposium programme [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
+  \
+
+  I﻿n the meantime read our symposium programme. [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
 buttonPdf: Read Programme
 pdfUpload: /images/uploads/colouring-in_thepast_programme_9dec.pdf
 images:
