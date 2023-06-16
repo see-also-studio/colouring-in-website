@@ -37,7 +37,7 @@ content: >-
 
   ***Exploring existential possibilities of migratory experiences***
 rightCol: >-
-  P﻿DF publication due out in spring 2023.\
+  P﻿DF publication due out in late June 2023.\
 
   \
 
