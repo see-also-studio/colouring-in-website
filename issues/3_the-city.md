@@ -35,7 +35,7 @@ pdfUpload: /images/uploads/colouring-in-isssue-3-the-past_draft.pdf
 buttonImages: View Images
 images:
   - src: /images/uploads/grove_timepiece_1.jpg
-  - src: /images/uploads/alex1.jpg
+  - src: /images/uploads/section1_ret_7.png
   - src: /images/uploads/img_0375.jpg
   - src: /images/uploads/alex3.jpeg
   - src: /images/uploads/img_7994.jpg
