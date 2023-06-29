@@ -3,45 +3,31 @@ title: The Past
 visible: true
 released: true
 meta1: Issue 3
-meta2: SYMPOSIUM
+meta2: June 2023
 contributors: []
 content: >-
-  Issue #3 of Colouring In will emerge from a generative one-day symposium
-  hosted by University of the Arts London (UAL) which took place on F﻿riday 9
-  December 2022.\
-
-  \
-
-  T﻿his symposium was concerned with illustrative strategies that unearth, activate and reposition our relationships to the past. \
-
-  \
-
-  \
-
-  K﻿EYNOTES:\
-
-  \
-
-  [Dr Jaleen Grove](https://www.risd.edu/academics/illustration/faculty/jaleen-grove), Assistant Professor of Illustration \
-
-  (Rhode Island School of Design, USA)\
-
-  ***The Lacuna’s Calling: A graphic reckoning with history***
+  What are productive illustrative strategies to unearth, activate and
+  reposition our relationship to the past? What kind of competence can
+  illustrators bring to the task of reconstructing forgotten or otherwise absent
+  histories? Should we even be “colouring in” the past, or might other kinds of
+  gestures yield more nuanced results? 
 
 
-  [D﻿r Alexandra D'Onofrio](https://www.research.manchester.ac.uk/portal/alexandra.d%27onofrio-postgrad.html), Visual Anthropologist\
+  This third issue of Colouring In is the result of an extraordinarily rich and engaging symposium that took place on 9 December 2022 at the University of the Arts London. We are delighted to hereby publish our speakers’ compelling contributions, including invocations of iIllustration as a conjuring act, reflections on the benefits of presentism, explorations of illustrative methods for articulating non-linear time, and thoughts on grappling with illustration’s own histories of representation. Our most extensive issue to date, it seems that the past will not let us rest...
+rightCol: |-
+  C﻿ONTRIBUTORS:
 
-  (﻿University of Manchester)\
-
-  ***Drawing and Animating Futures Past:*** \
-
-  ***Exploring existential possibilities of migratory experiences***
-rightCol: >-
-  P﻿DF publication due out in late June 2023.\
-
-  \
-
-  I﻿n the meantime read our symposium programme. [](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)[](https://en.wikipedia.org/wiki/%E2%86%93#:~:text=The%20arrow%20symbol%20%E2%86%93%20may,control%20key%2C%20an%20arrow%20key)↓↓
+  C﻿atherine Anyango Grünewald\
+  G﻿areth Brookes\
+  A﻿lexandra D'Onofrio\
+  J﻿aleen Grove\
+  I﻿an Horton & Maggie Gray\
+  S﻿erena Katt\
+  S﻿haron Kivland\
+  A﻿nushka Tay\
+  R﻿achel Emily Taylor\
+  S﻿harpay Chenyue Yuan\
+  .﻿.. and many more!
 buttonPdf: Read PDF
 pdfUpload: /images/uploads/colouring-in-isssue-3-the-past_draft.pdf
 buttonImages: View Images
