@@ -26,7 +26,7 @@ rightCol: |-
   S﻿haron Kivland\
   A﻿nushka Tay\
   R﻿achel Emily Taylor\
-  S﻿harpay Chenyue Yuan\
+  S﻿harpay Chenyuè Yuán\
   .﻿.. and many more!
 buttonPdf: Read PDF
 pdfUpload: /images/uploads/colouring-in-isssue-3-the-past_draft.pdf
