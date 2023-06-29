@@ -41,6 +41,6 @@ images:
   - src: /images/uploads/img_7994.jpg
   - src: /images/uploads/img_0252_smaller.jpg
   - src: /images/uploads/img_8069.jpg
-  - src: /images/uploads/grove_timepiece_2.jpg
+  - src: /images/uploads/1_jaleen_timepieces.png
 color: "#e9f8da"
 ---
