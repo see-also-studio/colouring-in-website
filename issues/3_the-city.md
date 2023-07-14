@@ -31,7 +31,7 @@ rightCol: |-
   \
   .﻿.. and many more!
 buttonPdf: Read PDF
-pdfUpload: /images/uploads/colouring-in-isssue-3-the-past_draft.pdf
+pdfUpload: /images/uploads/colouring-in-issue-3-the-past.pdf
 buttonImages: View Images
 images:
   - src: /images/uploads/section2_cag_01.jpg
