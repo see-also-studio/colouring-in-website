@@ -4,7 +4,7 @@ type: about
 content: >-
   Colouring In is a collaborative research project by [Dr Stephanie
   Black](https://www.kingston.ac.uk/staff/profile/dr-stephanie-black-1216/)
-  (Kingston School of Art) and [Luise
+  (Kingston School of Art) and [Dr Luise
   Vormittag](https://www.arts.ac.uk/colleges/camberwell-college-of-arts/people/luise-vormittag)
   (Camberwell College of Arts, UAL), through which we are examining the impact
   of illustration on themes of critical importance to global debates.
