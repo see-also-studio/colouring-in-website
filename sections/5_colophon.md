@@ -2,7 +2,7 @@
 title: Colophon
 type: colophon
 content: >-
-  All content © Colouring In, 2021–22, unless otherwise noted.\
+  All content © Colouring In, 2021–24, unless otherwise noted.\
 
   \
 
