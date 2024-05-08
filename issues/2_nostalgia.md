@@ -34,7 +34,6 @@ images:
   - src: /images/uploads/supercity_13984378811_o.jpg
   - src: /images/uploads/pigeon1.jpeg
   - src: /images/uploads/12_vangad-sb.jpg
-references:
-  - content: Coming soon.
+references: []
 color: "#f8efda"
 ---
