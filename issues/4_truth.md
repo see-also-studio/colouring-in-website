@@ -4,7 +4,21 @@ visible: true
 released: true
 meta1: Issue 4
 meta2: May 2024
-contributors: []
+contributors:
+  - name: Rebecca Douglas-Home
+  - name: Susan Doyle
+  - name: Geoff Grandfield
+  - name: O Haruna
+  - name: Chloe Hayward
+  - name: Mrudula K
+  - name: Hilde Kramer
+  - name: Kathryn Martin
+  - name: John Miers
+  - name: Louis Netter
+  - name: Holly O'Neil
+  - name: Michelle Salamon
+  - name: Dr. Carolyn Shapiro
+  - name: Ann Wong
 content: >-
   What are truthful images? How can illustration – which often takes the form of
   fabricated pictures – carry the burden of truth? What kinds of reality do we
